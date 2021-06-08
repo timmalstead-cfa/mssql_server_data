@@ -1,0 +1,700 @@
+﻿relation_id,latitude,longitude,zip,city,name,website,address,address_2,state,phone,email,notes
+1,34.64319040,-120.44678440,93436,"Lompoc",,,"325 N. Second Street",,"CA","(805) 736-6226",,
+2,34.39727100,-119.51716040,93013,"Carpinteria",,,"941 Walnut Avenue",,"CA","(805) 684-8621",,
+3,34.42281640,-119.71366820,93101,"Santa Barbara","test123","www.recover123.test","1532 Castillo Street","123","CA","(805) 364-2727","123@test.com","123"
+8,34.42911850,-119.68821400,93103,"Santa Barbara",,,"721 Spring Street",,"CA","(805) 455-4568",,
+10,34.42845980,-119.70181170,93101,"Santa Barbara",,,"327 E. Victoria Street",,"CA","(805) 882-2294","givingtreesaplings@yahoo.com",
+11,34.41503000,-119.71157000,93101,"Santa Barbara",,,"1107 San Andres Street",,"CA","(805) 617-9893",,
+12,34.42683040,-119.71995810,93105,"Santa Barbara","New House Grad House",,"2021 Castillo Street",,"CA","(805) 563-6050",,
+13,34.41995990,-119.69254740,93101,"Santa Barbara","New House II",,"227 W. Haley Street",,"CA","(805) 962-8248",,
+14,34.43233370,-119.72421160,93105,"Santa Barbara","New House III",," 2434 Bath Street",,"CA","(805) 563-6050",,
+15,34.42318110,-119.71244640,93101,"Santa Barbara",,,"1515 Bath Street",,"CA","(805) 966-1260","recovery@casaserena.org",
+16,34.64303090,-120.47140570,93436,"Lompoc ",,,"1100 W Laurel Avenue",,"CA","(805) 737-7080",,
+17,34.44447640,-119.77873980,93110,"Santa Barbara ",,,"234 Camino del Remedio",,"CA","(805) 681-4401",,
+18,34.41915370,-119.68458920,93103,"Santa Barbara",,,"535 E. Yanonali Street",,"CA","(805) 966-1316",,
+19,34.42177730,-119.69750290,93102,"Santa Barbara",,,"P.O. Box 446",,"CA","(805) 965-4989",,
+20,34.41645690,-119.71343610,93101,"Santa Barbara","Men's House",,"1227 San Andres St",,"CA","(805) 965-4989",,"Dual diagnosis sober living home for men. Cost: $200/week AND $150 deposit "
+21,34.42520190,-119.68687640,93103,"Santa Barbara ","Men's House(Kelly James Berger)",,"731 E Haley St",,"CA","(805) 451-2461",,"Sober living home for men. "
+22,34.43012170,-119.71516150,93101,"Santa Barbara","Women's House(Sarah Ringler)",,"23 W Mission St",,"CA","(805) 636-3633",,"Sober living home for women. Cost: $200/week AND $150 deposit "
+23,34.41366620,-119.69846270,93101,"Santa Barbara","Women's House(Sarah Ringler)",,"231 W Haley St",,"CA","(805) 335-0708",,"Sober living home for women. Cost: $200/week AND $150 deposit"
+24,34.42663170,-119.71565930,93101,"Santa Barbara",,,"1818 Bath Street",,"CA","(805) 896-6865",,
+25,34.44882810,-119.81820670,93111,"Santa Barbara ",,,"604 N. Kellog Avenue",,"CA","(805) 683-2838",,
+26,34.42363590,-119.68221450,93103,"Santa Barbara",,,"832 Jennings Street",,"CA","(805) 965-2070",,
+27,34.41718580,-119.71018380,93101,"Santa Barbara","Downtown",,"1121 Walnut Ave",,"CA","(805) 698-4889","scott@allstarrecoverysb.com","Sober living home for men.Cost: $700/month OR $175/week"
+28,34.44205690,-119.79762530,93111,"Santa Barbara","Uptown",,"5018 Calle Real Road",,"CA","(805) 698-4889","scott@allstarrecoverysb.com",
+29,34.42953570,-119.72411690,93105,"Santa Barbara","Cottage Hospital",,"400 W. Pueblo Street",,"CA","(805) 569-7253","kkaur@sbch.org",
+30,34.41483000,-119.69755000,93101,"Santa Barbara","Project Recovery Detox Center",,"133 W. Haley Street",,"CA","(805) 963-1836",,
+31,34.42684700,-119.71054580,93101,"Santa Barbara","Bethel House",,"24 W. Arrellaga Street",,"CA",,,"12-step Christian based residential treatment facility for women. 24-bed availability. Bilingual.Cost: FREE"
+32,34.41915370,-119.68458920,93103,"Santa Barbara","Men's Recovery",,"535 E. Yanonali Street",,"CA","(805) 966-1313","lchandler@sbrm.org",
+33,34.41150100,-119.69720680,93101,"Santa Barbara","Cottage Residential Center",,"316 W. Montecito Street",,"CA","(805) 569-7422",,"The program provides medically supervised care and is open to men and women 18 years and older"
+34,34.41514520,-119.69648350,93101,"Santa Barbara",,,"423 Chapala Street",,"CA","(805) 648-6295",,"Residential treatment facility for men and women. Cost: FREE -- 70 bed transitional shelter. Goal is for each person  housed to obtain self-sufficiency by maintaining secure  income and finding stable housing. Call 805-962-6281"
+35,34.36000000,-119.30000000,93002,"Ventura",,,"P.O. Box 1064",,"CA","(805) 648-3295","info@teenchallenge.org",
+36,34.41782430,-119.70389470,93101,"Santa Barbara","Adult Residential Treatment",,"232 E. Canon Perdido Street",,"CA","(805) 963-1836",,"Residential treatment center for men and women with  addiction or co-occurring disorders. Cost: UNKNOWN "
+39,34.42184440,-119.70411910,93101,"Santa Barbara",,,"26 W. Figueroa Street",,"CA","(805) 963-8961",,
+40,34.42684700,-119.71054580,93101,"Santa Barbara",,,"24 W. Arrellaga Street",,"CA","(805) 966-1316",,"Group and individual counseling. Mandatory testing before group. Tuesdays and Thursdays 5:00-6:15 p.m. "
+44,34.44015130,-119.76074510,93110,"Santa Barbara",,,"4129 State Street ",,"CA","(805) 964-4795",,
+46,34.42830900,-119.71692630,93101,"Santa Barbara ",,,"205 W. Mission Street",,"CA","(805) 242-2175","info@goodheartrecovery.com",
+47,34.42578070,-119.70039780,93101,"Santa Barbara",,,"1111 Garden Street",,"CA",,,
+48,34.42578070,-119.70039780,93101,"Santa Barbara",,,"1111 Garden Street",,"CA",,,
+49,34.40364380,-119.69342370,93109,"Santa Barbara ",,,"125 Harbor Way<&&> Marine Center Classroom",,"CA",,,
+50,34.42093780,-119.69371050,93101,"Santa Barbara",,,"235 E. Cota",,"CA",,,
+51,34.41995990,-119.69254740,93103,"Santa Barbara",,,"227 W. Haley Street",,"CA",,,
+52,34.42318110,-119.71244640,93101,"Santa Barbara",,,"1515 Bath Street",,"CA",,,
+53,34.42093780,-119.69371050,93101,"Santa Barbara",,,"235 E. Cota Street",,"CA",,,
+54,34.63858210,-120.45803490,93436,"Lompoc ",,,"109 N H Street ",,"CA","(805) 735-6723",,
+56,34.41689180,-119.70026170,93101,"Santa Barbara",,,"130 E Ortega Street ",,"CA","(805) 568-1296",,
+58,34.41760210,-119.70098400,93101,"Santa Barbara ",,,"125 E De La Guerra St Ste A",,"CA","(805) 963-5370",,
+59,34.42672610,-119.70357660,93101,"Santa Barbara ",,,"1300 Santa Barbara St Ste A ",,"CA","(805) 560-8658",,
+60,34.44110150,-119.74235530,93105,"Santa Barbara",,,"3700 State Street Ste 200 ",,"CA","(805) 569-9024",,
+61,34.42061820,-119.70410710,93101,"Santa Barbara ",,,"1019 Chapala Street",,"CA","(805) 687-1200",,
+75,34.45428140,-119.75187840,93110,"Santa Barbara",,,"909 La Cumbre Road",,"CA",,,
+78,34.40241550,-119.69915990,93101,"Santa Barbara",,,"Leadbetter Beach",,"CA",,,
+79,34.40364380,-119.69342370,93109,"Santa Barbara",,,"125 Harbor Way",,"CA",,,"Marine Center Classroom"
+80,34.41945640,-119.70351230,93101,"Santa Barbara",,,"127 E. Carrillo Street",,"CA",,,
+81,34.43233370,-119.72421160,93105,"Santa Barbara",,,"2434 Bath Street",,"CA",,,
+82,34.43011860,-119.70708390,93101,"Santa Barbara",,,"227 E. Arrellaga Street",,"CA",,,
+83,34.43616270,-119.72260300,93105,"Santa Barbara",,,"21 E. Constance Avenue",,"CA",,,"Church Garden Room"
+84,34.42694340,-119.70120070,93101,"Santa Barbara",,,"305 E. Anapamu Street",,"CA",,,
+85,34.41995990,-119.69254740,93101,"Santa Barbara",,,"227 W. Haley Street",,"CA",,,
+86,34.40607130,-119.69909240,93109,"Santa Barbara ",,," 721 Cliff Drive",,"CA",,,
+87,34.40398990,-119.69380170,93109,"Santa Barbara",,,"113 Harbor Way",,"CA",,,
+88,34.45292240,-119.70826930,93105,"Santa Barbara",,,"2964 Las Canoas Road",,"CA",,,
+89,34.42168150,-119.68629340,93103,"Santa Barbara",,,"601 E. Montecito Street",,"CA",,,
+90,34.41505300,-119.70122700,93101,"Santa Barbara",,,"627 Bath Street",,"CA",,,
+91,34.41114020,-119.69113260,93101,"Santa Barbara",,,"112 W. Cabrillo Boulevard",,"CA",,,
+92,34.41885780,-119.70292200,93101,"Santa Barbara",,,"906 De La Vina Street",,"CA",,,
+93,34.43616270,-119.72260300,93105,"Santa Barbara",,,"21 E. Constance Avenue",,"CA",,,"Mon 5:30pm(Hospitals & Institutions)<&&> Tue 7pm (Men)<&&> Wed 7pm (Women)All other times are open to all"
+94,34.43439080,-119.80009890,93111,"Santa Barbara",,,"5073 Hollister Avenue",,"CA",,,
+95,34.43584010,-119.81474750,93111,"Santa Barbara",,,"5444 Hollister Avenue",,"CA",,,
+96,34.43732420,-119.77964340,93110,"Santa Barbara","Grateful Group",,"4575 Auhay Drive",,"CA",,,
+98,34.42103310,-119.63121740,93108,"Santa Barbara",,,"83 Eucalyptus Lane",,"CA",,,
+100,34.44376030,-119.83358860,93117,"Goleta",,,"6067 Shirrell Way",,"CA",,,
+101,34.43168100,-119.71648080,93105,"Santa Barbara",,,"2101 State Street",,"CA","(805) 682-7146","office@santabarbarafirst.org",
+104,34.42878230,-119.70735540,93101,"Santa Barbara ",,,"1535 Santa Barbara Street",,"CA","(805) 965-4583","USSB@USSB.ORG",
+105,34.45739680,-119.69552650,93105,"Santa Barbara",,,"1964 Las Canoas Road",,"CA",,,
+106,34.43655300,-119.63416540,93108,"Santa Barbara",,,"1455 E. Valley Road",,"CA","(805) 969-5041",,
+107,34.43645050,-119.64124020,93108,"Montecito",,,"1300 E. Valley Road",,"CA","(805) 969-6868","collins@mtcarmelsb.com",
+108,34.41541100,-119.85827150,93117,"Goleta",,,"6586 Picasso Road",,"CA","(805) 968-2712",,
+109,34.43508020,-119.82316510,93117,"Goleta",,,"5679 Hollister Avenue",,"CA","(805) 967-1237",,
+110,34.44847180,-119.81983460,93117,"Goleta",,,"550 Cambridge Drive",,"CA","(805) 964-0436",,
+111,34.39697200,-119.51621580,93103,"Carpinteria",,,"1111 Vallecito Road",,"CA","(805) 684-2211",,
+112,34.42081920,-119.59705060,93108,"Summerland",,,"2400 Lillie Avenue",,"CA","(805) 969-9318","info@summerlandchurch.org",
+113,34.43584010,-119.81474750,93111,"Santa Barbara",,,"5444 Hollister Avenue",,"CA",,,
+114,34.39361130,-119.52490090,93013,"Carpinteria",,,"100 Linden Avenue",,"CA",,,
+115,34.41711980,-119.83123820,93117,"Goleta",,,"998 Sandspit Road",,"CA",,,
+116,34.41428770,-119.69452660,93101,"Santa Barbara",,,"87 Parker Way",,"CA",,,
+117,34.45175520,-119.79980240,93111,"Goleta",,,"5070 Cathedral Oaks Road",,"CA",,,
+118,34.40336270,-119.73525180,93109,"Santa Barbara",,,"2558 Borton Drive",,"CA",,,
+119,34.40202030,-119.51333120,93013,"Carpinteria",,,"1335 Vallecito Place",,"CA",,,
+120,34.43011860,-119.70708390,93101,"Santa Barbara",,,"227 E. Arrellaga Street",,"CA",,,
+121,34.40478950,-119.51040830,93013,"Carpinteria",,,"5300 El Carro Lane",,"CA",,,
+122,34.40243140,-119.52486920,93013,"Carpinteria",,,"4610 Carpinteria Avenue",,"CA",,,
+123,34.92175130,-120.43702330,93454,"Santa Maria ",,,"2125 S Broadway"," #109","CA","(805) 928-9667",,
+124,34.41620470,-119.85923610,93117,"Goleta",,,"761 Camino Pescadero",,"CA",,,
+125,34.41880600,-119.67648190,93103,"Santa Barbara","Casa Esperanza",,"816 Cacique Street",,"CA","(805) 884-8481",,
+126,34.44249400,-119.81266200,93111,"Goleta",,,"5486 Calle Real",,"CA",,,
+127,34.41187400,-119.69497200,93101,"Santa Barbara",,,"215 Los Aguajes Avenue",,"CA",,,
+128,34.44205690,-119.79762530,93111,"Santa Barbara",,,"5018 Calle Real ",,"CA",,,
+129,34.42897790,-119.71522940,93111,"Santa Barbara",,,"1915 Chapala Street",,"CA",,,
+130,34.41705130,-119.82921690,93111,"Goleta",,,"5905 Sandspit Road",,"CA",,,
+131,34.44986480,-119.79202290,93111,"Goleta",,,"677 North Turnpike Road",,"CA","(805) 967-4611",,
+132,34.44541800,-119.82926210,93117,"Goleta",,,"380 N. Fairview",,"CA",,,
+133,34.39767910,-119.51563920,93013,"Carpinteria",,,"1059 Vallecito",,"CA",,,
+134,34.43472830,-119.78309970,93110,"Santa Barbara",,,"400 Puente Drive",,"CA",,,
+135,34.42770320,-119.70717410,93101,"Santa Barbara",,,"107 E. Micheltorena Street",,"CA","(805) 965-3434",,
+136,34.41932950,-119.69597230,93101,"Santa Barbara",,,"608 Anacapa St",,"CA","(805) 963-3636","hello@pacificpridefoundation.org",
+137,34.95185010,-120.44631740,93458,"Santa Maria",,,"830 W. Church St.",,"CA","(805) 332-3648",,
+138,34.63949720,-120.45530750,93436,"Lompoc","Miracle House","http://coastvalleysatc.com/location-details.php?id=4","113 N. F Street",,"CA",,,"The specific purpose for Coast Valley’s sober living environments are to provide a setting in which individuals beset with substance abuse problems can make the necessary changes in their lives and grow spiritually. Miracle is a quasi-residential program. Residents Attend Treatment at Coast Valley’s F st location in Lompoc. Resident’s engage in house meetings<&&> prayer time<&&> meditation<&&> and Cognitive Behavioral groups each week. Resident’s are randomly tested for Alcohol and Drugs. Rent is $600/mo.This includes room<&&> board<&&> utilities<&&> internet<&&> cable<&&> Netflix<&&> and food.Cost: $640/month and $DEPOSIT "
+139,34.93710490,-120.43139710,93454,"Santa Maria",,,"1414 S. Miller St. ","Suite 11","CA",,,
+140,34.64023730,-120.45554330,93436,"Lompoc",,,"133 North F St.",,"CA","(805) 735-7525",,
+141,34.63959890,-120.45315810,93436,"Lompoc",,,"115 N. D Street",,"CA","(805) 588-4410","azucker805@gmail.com",
+142,34.61408420,-120.07678110,93460,"Santa Ynez",,,"3694 Tivola St B",,"CA","(805) 705-0766",,"Minimum stay of 30 days is expected. Cost: UNKNOWN "
+143,34.63949720,-120.45530750,93436,"Lompoc",,,"113 N. F Street",,"CA","(805) 332-2648",,"Cost: $640/month and $DEPOSIT "
+145,34.92674590,-120.43388510,93454,"Santa Maria",,,"245 E. Inger Drive ","Suite 103-B","CA","(805) 346-8185","info@goodsamaritanshelter.org",
+146,34.63864250,-120.46447220,93436,"Lompoc","Mark's House","https://goodsamaritanshelter.org/shelter-programs-2/","113 South M Street",,"CA","(805) 735-9980","info@goodsamaritanshelter.org","A 19-bed family transitional shelter located in Lompoc<&&> CA. Currently operated by Good Samaritan Shelter"
+147,34.63874720,-120.45114700,93436,"Lompoc","Recovery Way Home",,"604 W. Ocean Avenue",,"CA","(805) 736-0357",,"Can house up to 16 women with up to 2 children each.  Children must be under the age of. The program is 6-18  months long. Day treatment is available with Turning  Point. Cost: 30% of gross income "
+149,34.64753920,-120.45687080,93436,"Lompoc",,,"115 E College Ave",,"CA","(805) 737-0015",,
+150,34.63777210,-120.45917960,93436,"Lompoc",,,"129 N. I Street",,"CA",,,
+151,34.64010920,-120.47549580,93436,"Lompoc",,,"113 N. V Street ",,"CA",,,
+152,34.63975370,-120.45302310,93436,"Lompoc",,,"119 N. D Street",,"CA",,,
+153,34.63975370,-120.45302310,93436,"Lompoc",,,"119 N. D Street",,"CA",,,
+154,34.63853430,-120.44899080,93436,"Lompoc",,,"118 N. A Street ",,"CA",,,
+155,34.59432370,-120.13691730,93463,"Solvang",,,"1760 Mission Drive","Room B","CA",,,
+156,34.59184870,-120.13908270,93463,"Solvang",,,"320 Alisal Road",,"CA",,,
+157,34.61328650,-120.19643210,93427,"Buellton",,,"164 W. Hwy 246",,"CA",,,
+158,34.68546900,-120.44026380,93436,"Lompoc",,,"2800 Harris",,"CA",,,
+159,34.59432370,-120.13691730,93463,"Solvang",,," 1760 Mission Drive #G",,"CA",,,
+160,34.63917690,-120.44584050,93436,"Lompoc",,,"1017 E. Ocean Avenue","Suite B","CA",,,
+161,34.64589210,-120.45687080,93436,"Lompoc",,,"513 N. G Street",,"CA",,,
+162,34.92725910,-120.44327950,93458,"Santa Maria",,,"1812 Bungalow Dr.",,"CA","(805) 354-5121",,
+163,34.94389200,-120.44102300,93454,"Santa Maria","Recovery Point Acute Care","https://goodsamaritanshelter.org/shelter-programs-2/residential-treatment-services/","401-B W. Morrison Avenue",,"CA",,,"Good Samaritan supports a 12-bed inpatient drug and  alcohol detoxification center. The program is 7-14 days. Cost: $150 administrative fee and $25/day for county  residents. Payment plans are available. "
+164,34.96427630,-120.43358010,93454,"Santa Maria",,,"1207 N. McClelland Road",,"CA",,,
+165,34.95716320,-120.43074440,93454,"Santa Maria","TC House",,"412 E. Tunnell st.",,"CA","(805) 925-0315",,"Good Samaritan supports a 6-18 month program for  women with children up to 5 years old. Cost: 30% of gross income "
+166,34.95716320,-120.43074440,93454,"Santa Maria","Project PREMIE","https://goodsamaritanshelter.org/shelter-programs-2/womans-treatment-center/","412b E Tunnell St",,"CA","(805) 925-0315",,
+167,34.92674590,-120.43388510,93454,"Santa Maria","Recovery Point",,"245 E. Inger Drive","Suite 103B","CA","(805) 346-8185",,
+168,34.95676540,-120.43502040,93454,"Santa Maria",,,"115 E. Fesler Street",,"CA","(805) 922-6597",,
+169,34.95468060,-120.42451020,93454,"Santa Maria",,,"801 E. Chapel Street",,"CA","(805) 332-4568",,
+170,34.96850170,-120.42581490,93454,"Santa Maria",,,"318 W. Carmel Lane",,"CA","(805) 922-2106",,
+171,34.93710490,-120.43139710,93454,"Santa Maria",,,"1414 S. Miller Street","Suite 10","CA","(805) 623-2203",,
+172,34.95009500,-120.43220730,93454,"Santa Maria",,,"301 S. Miller Street","Suite 10","CA","(805) 349-2255","elements.syoung@gmail.com",
+173,34.94313600,-120.44028200,93458,"Santa Maria","Casa De Familia",,"401 W. Morrison Avenue","C","CA","(805) 347-3338",,"Spanish"
+174,34.93314600,-120.43760200,93454,"Santa Maria",,,"1517 S. Broadway",,"CA",,,
+175,34.95349100,-120.43363200,93454,"Santa Maria",,,"209 W. Main Street","Suite 2","CA",,,
+176,34.95065570,-120.44015100,93458,"Santa Maria",,,"324 W. Cypress St",,"CA",,,"123"
+177,34.95349100,-120.43363200,93454,"Santa Maria",,,"209 W. Main Street","Suite J","CA",,,
+178,34.95349100,-120.43363200,93454,"Santa Maria",,,"209 W. Main Street","Suite B","CA",,,""
+179,34.94978430,-120.43430540,93454,"Santa Maria",,,"408 N. McClelland Street",,"CA",,,
+180,34.95336820,-120.41882160,93454,"Santa Maria",,,"1027 W. Main Street","Suite D","CA",,,
+181,34.97184840,-120.57209190,93434,"Guadalupe",,,"1015 Guadalupe Street",,"CA",,,
+182,34.95092710,-120.43150330,93454,"Santa Maria","Women's Big Book",,"324 W. Cypress Street",,"CA",,,
+183,34.95092710,-120.43150330,93454,"Santa Maria","Women's 12&12",,"324 W. Cypress Street",,"CA",,,
+184,34.90542490,-120.41886090,93454,"Santa Maria","Women's Discovery",,"1022 Butterfly Court",,"CA",,,
+185,34.95349100,-120.43363200,93454,"Santa Maria","Golden Group",,"209 W. Main Street",,"CA",,,
+186,34.97261810,-120.42331730,93454,"Santa Maria","Design for Living",,"1822 Baylor Lane",,"CA",,,
+187,34.87483040,-120.43058690,93455,"Orcutt","Women's Fresh Start",,"540 Mooncrest Lane",,"CA",,,
+188,34.88600090,-120.43114950,93455,"Orcutt","Women's Safe Happy & Free",,"3980 Dartmouth Lane",,"CA",,,
+189,34.86896000,-120.42209000,93455,"Orcutt",,,"993 Patterson Road",,"CA",,,
+190,34.86466400,-120.44695220,93455,"Orcutt",,,"126 S. Broadway",,"CA",,,
+191,34.86897190,-120.42216950,93455,"Orcutt",,,"993 Patterson Road",,"CA",,,
+192,34.91723010,-120.45709580,93454,"Santa Maria",,,"1265 W. McCoy Road ","Suite 8","CA","(805) 922-2946","newbeginningsfoursquare@verizon.net",
+193,34.97261810,-120.42331730,93454,"Santa Maria",,,"1822 Baylor Lane",,"CA",,,
+194,34.86897190,-120.42216950,93455,"Orcutt",,,"993 Patterson Road",,"CA",,,
+195,34.94366310,-120.44207510,93454,"Santa Maria","Probation & Resource Center",,"509 W. Morrison Ave",,"CA",,,
+196,34.94469830,-120.43787540,93454,"Santa Maria","Recovery Point",,"731 S. Lincoln Street",,"CA",,,
+197,34.91790530,-120.45691580,93454,"Santa Maria",,,"2320 Thompson Street","Suite D","CA",,,
+198,34.95219950,-120.42507290,93454,"Santa Maria",,,"123 S. College Drive",,"CA",,,
+199,34.43508020,-119.82316510,93117,"Goleta",,,"5679 Hollister Ave ",,"CA","(805) 967-1237",,
+200,34.41208630,-119.69679310,93101,"Santa Barbara",,,"327 Bath Street",,"CA",,,
+201,34.41885780,-119.70292200,93101,"Santa Barbara",,,"906 De La Vina Street",,"CA",,,
+202,34.43584010,-119.81474750,93111,"Santa Barbara",,,"5444 Hollister Avenue",,"CA",,,
+203,34.41114020,-119.69113260,93101,"Santa Barbara",,,"112 W. Cabrillo Boulevard",,"CA",,,
+204,34.43584010,-119.81474750,93111,"Santa Barbara",,,"5444 Hollister Avenue",,"CA",,,
+205,34.43732420,-119.77964340,93110,"Goleta",,,"4575 Auhay Drive",,"CA",,,
+206,34.42689770,-119.70805110,93101,"Santa Barbara",,,"1027 N. Main Street","Ste D","CA",,,
+207,34.63777210,-120.45917960,93436,"Lompoc",,,"129 N. I Street Ste. E",,"CA",,,
+208,34.63975370,-120.45302310,93436,"Lompoc",,,"119 N. D Street",,"CA",,,
+209,34.63975370,-120.45302310,93436,"Lompoc",,,"119 N. D Street",,"CA",,,
+210,34.63853430,-120.44899080,93436,"Lompoc",,,"118 N. A Street",,"CA",,,
+211,34.63864250,-120.46447220,93436,"Lompoc","Another Road Detox",,"113 S M Street",,"CA",,,"7-14 day acute detoxification for men and women. Cost: $25/day for county residents and $100 administrative fee. Payment plans available. "
+212,34.63874720,-120.45114700,93436,"Lompoc","Turning Point",,"604 W. Ocean Avenue",,"CA",,,
+215,34.41782430,-119.70389470,93101,"Santa Barbara","Drinking Driver Program",,"232 East Canon Perdido Street",,"CA",,,"COVID-19 Update: Offices are closed. Counselors are available via phone or video conferencing for current and new clients. Call or email to make an appointment. Visit https://cadasb.org/covid-19-services-update/ for all updates on services. (Updates 5/26/2020)Provides an education and treatment program for multiple offenders. Class is for 18 months with weekly attendance required.Eligibility:	Must have been convicted of 2 or more DUIs.Application Process:	Call for more information and to schedule an appointment.Program Fees:	Call for fee information.Documents Required:	Call for information"
+216,34.09778970,-118.28714930,90027,"Los Angeles",,,"4470 West Sunset Boulevard","Suite 107","CA","(855) 638-4373",,
+217,34.42601070,-119.71027430,93101,"Santa Barbara","Santa Barbara Office",,"1530 Chapala Street ","Suite C","CA","(805) 963-6765",,
+218,34.94571670,-120.43535860,93454,"Santa Maria","Santa Maria Office",,"120 East Jones Street","Suite 133","CA","(805) 349-8943",,
+219,34.43000000,-119.80000000,93160,"Santa Barbara",,"www.differentpointofview.com","P.O. Box 6562 123",,"CA","(805) 698-6784","ali@adifferentpointofview.org","123"
+220,34.63851220,-120.44633990,93436,"Lompoc",,,"1000 W. Ocean Avenue",,"CA","(805) 736-0250","admin@peacelompoc.org",
+221,34.64504140,-120.42750360,93436,"Lompoc","Bridge House",,"2025 Sweeny Road",,"CA","(805) 735-4390",,
+222,34.42540080,-119.69602820,93101,"Santa Barbara",,,"411 E. Canon Perdido St","#12","CA","(805) 963-4458","info@dvsolutions.org",
+223,34.64095620,-120.46569100,93436,"Lompoc",,,"203 N. N Street",,"CA","(805) 735-9980",,"19 bed family transitional shelter. Goal is to help homeless families achieve self-sufficiency through  providing a shelter where families can stay together  while addressing the root cause of their homelessness."
+224,34.63934240,-120.46785090,93436,"Lompoc",,,"815 W. Ocean Avenue",,"CA","(805) 736-3423",,"Section 8 Housing Choice Voucher Program Public Housing and Housing Under Management Family Self-Sufficiency Program Resident Self-Sufficiency Program Resident Opportunities for Self-Sufficiency "
+228,34.64783120,-120.45630830,93436,"Lompoc","College Park Apartments",,"648 N. G Streeet ",,"CA","(805) 736-4640",,
+229,34.63254900,-120.47237310,93436,"Lompoc","T Street Apartments",,"500 N. T Street",,"CA","(805) 963-9644",,
+230,34.64587280,-120.47262060,93436,"Lompoc","T Street Apartments",,"504 N. T Street",,"CA",,,
+231,34.64418120,-120.45397280,93436,"Lompoc","Courtyard Apartments",,"725 N. E Street",,"CA",,,
+232,34.64418120,-120.45397280,93436,"Lompoc","Courtyard Apartments",,"729 N. E Street",,"CA",,,
+233,34.64418120,-120.45397280,93436,"Lompoc","Courtyard Apartments",,"733 N. E Street",,"CA",,,
+234,34.61845580,-120.19153840,93427,"Buellton","Central Gardens",,"580 Central Ave",,"CA","(805) 736-0357",,
+235,34.61835180,-120.19156570,93427,"Buellton","Central Gardens",,"614 Central Ave",,"CA",,,
+236,34.41738800,-119.69530800,93101,"Santa Barbara",,,"11 East Haley Street",,"CA","(805) 963-9644","frontdesk@chcsb.com",
+238,34.65333000,-120.45137000,93436,"Lompoc","Lompoc Recovery Center",,"104 S. C Street","Ste. A","CA","(805) 347-3338",,
+239,34.63986040,-120.45063790,93436,"Lompoc",,,"117 N. B Street",,"CA","(805) 737-6690",,
+240,34.65357400,-120.45660080,93436,"Lompoc",,,"1010 N. H Street",,"CA","(805) 264-6448",,
+241,34.64589210,-120.45687080,93436,"Lompoc",,,"513 N. G Street",,"CA","(805) 819-0460",,"x 153"
+242,34.60421200,-120.09352900,93460,"Santa Ynez",,,"90 Via Juana Lane",,"CA","(805) 688-7070",,
+243,34.64113750,-120.43951910,93436,"Lompoc",,,"1515 E. Ocean Avenue",,"CA","(805) 737-3300",,
+244,34.61328650,-120.19643210,93427,"Buellton",,,"164 W. Highway 246",,"CA","(805) 688-4571","info@buelltonseniorcenter.org",
+245,34.63753350,-120.45447090,93436,"Lompoc",,,"135 S. E Street",,"CA","(805) 736-8615","bethanylompoc@gmail.com",
+246,34.65342930,-120.46316350,93436,"Lompoc",,,"500 E. North Ave",,"CA","(805) 736-6415","office@trinaz.com",
+247,34.64273200,-120.46504800,93436,"Lompoc",,,"314 N. N Street",,"CA","(805) 736-6669",,
+248,34.63395590,-120.46075440,93436,"Lompoc",,,"403 N. J Street",,"CA",,,
+249,34.65333000,-120.45137000,93436,"Lompoc",,,"125 N. C Street",,"CA","(805) 736-1772",,
+250,34.63410290,-120.45649360,93436,"Lompoc",,,"213 W. Olive Avenue",,"CA","(805) 733-3713","preladodelostesoros@gmail.com",
+251,34.65108410,-120.45111040,93436,"Lompoc",,,"816 N. C Street",,"CA",,,
+252,34.63893860,-120.45026830,93436,"Lompoc",,,"38 N. B Street",,"CA",,,
+253,34.74664190,-120.28136540,93440,"Los Alamos",,,"260 Gonzales Drive",,"CA",,,
+254,34.59432370,-120.13691730,93463,"Solvang",,,"1760 Mission Drive",,"CA",,,
+255,34.65262040,-120.45579080,93436,"Lompoc",,,"925 N. F Street",,"CA","(805) 736-1271","office@lompocumc.org",
+256,34.63942770,-120.46916930,93436,"Lompoc",,,"917 W. Ocean Ave",,"CA",,,
+257,34.63678780,-120.46071940,93436,"Lompoc",,,"213 N. J Street",,"CA","(805) 736-4115",,
+258,34.74330390,-120.27446100,93440,"Los Alamos",,,"690 Bell Street",,"CA",,,
+259,34.63678780,-120.46071940,93436,"Lompoc",,,"213 North J Street",,"CA","(805) 688-3075",,
+260,34.64303090,-120.47140570,93436,"Lompoc",,,"1100 W. Laurel Avenue",,"CA","(866) 404-4007",,
+261,34.44447640,-119.77873980,93110,"Santa Barbara",,,"234 Camino Del Remedio",,"CA","(805) 681-4401",,
+262,34.92169260,-120.42901150,93455,"Santa Maria",,,"2125 S. Centerpointe Pkwy",,"CA","(805) 346-7135",,
+263,34.42878230,-119.70735540,93101,"Santa Barbara","Unitarian Society of Santa Barbara",,"1535 Santa Barbara St.",,"CA","(805) 965-4583",,
+264,34.42672430,-119.70826050,93101,"Santa Barbara","Trinity Episcopal Church ",,"1500 State Street",,"CA","(805) 965-7419",,
+265,34.42694340,-119.70120070,93101,"Santa Barbara","First United Methodist Church",,"305 E. Anapamu Street",,"CA","(805) 963-3579",,
+266,34.43616270,-119.72260300,93105,"Santa Barbara","First Presbyterian Church",,"21 E. Constance Avenue",,"CA","(805) 687-0754",,
+267,34.43168100,-119.71648080,93105,"Santa Barbara","First Congregational Church",,"2101 State Street",,"CA","(805) 682-7146",,
+268,34.39697200,-119.51621580,93013,"Carpinteria","Carpinteria Community Church",,"1111 Vallecito Road",,"CA","(805) 684-2211",,
+269,34.41296080,-119.86240340,93117,"Isla Vista","University United Methodist Church",,"892 Camino Del Sur",,"CA","(805) 968-2610",,
+270,34.41944170,-119.70348610,93101,"Santa Barbara",,,"125 W. Carrillo Street",,"CA","(805) 963-9644","frontdesk@chcsb.com",
+271,34.43984490,-119.72611200,93105,"Santa Barbara",,,"2904 State Street","Suite A","CA","(805) 564-1911","opportunity@willbridge.sbcoxmail.com",
+272,34.44012360,-119.78138880,93110,"Santa Barbara",,,"66 S. San Antonio Street",,"CA","(805) 947-5175",,
+273,34.42599870,-119.73391320,93105,"Santa Barbara",,,"2612 Modoc Road",,"CA","(805) 563-9990","office@sarahhousesb.org",
+274,34.42480470,-119.70484790,93101,"Santa Barbara","Santa Barbara Office",,"26 E. Victoria Street",,"CA","(805) 962-5152","info@pshhc.org",
+275,34.40557640,-119.53573370,93013,"Carpinteria","Casas de las Flores","https://casas-de-las-flores-rentcafewebsite.securecafe.com/onlineleasing/casas-de-las-flores/guestlogin.aspx","4090 Via Real",,"CA","(805) 869-1531","cdlf@pshhc.org",
+276,34.39926010,-119.52438790,93013,"Carpinteria","Chapel Court","https://www.rentcafe.com/onlineleasing/chapel-court/guestlogin.aspx","681 Ash Avenue",,"CA","(805) 684-7880","chp@pshhc.org",
+277,34.40418930,-119.52624570,93013,"Carpinteria","Dahlia Court","https://www.rentcafe.com/onlineleasing/dahlia-court/guestlogin.aspx","1305 Dahlia Court",,"CA","(805) 566-2117","dca@pshhc.org",
+278,34.43613930,-119.85387940,93117,"Goleta","Casas de los Carneros Apartments","https://casas-de-los-carneros-rentcafewebsite.securecafe.com/onlineleasing/casas-de-los-carneros/guestlogin.aspx","10 Longshore Place",,"CA","(805) 869-1583","cdlc@pshhc.org",
+279,34.42572880,-119.88533940,93117,"Goleta","Ellwood Apartments","https://www.rentcafe.com/onlineleasing/ellwood-apts/guestlogin.aspx","360 Ellwood Beach Drive",,"CA","(805) 968-9541","sra@pshhc.org",
+280,34.41442390,-119.86101890,93117,"Goleta","Isla Vista Apartments","https://www.rentcafe.com/onlineleasing/isla-vista-apts/guestlogin.aspx","6660 Abrego Road",,"CA","(805) 571-6009","iv@pshhc.org",
+281,34.42379920,-119.86617490,93117,"Goleta","Storke Ranch Apartments","https://www.rentcafe.com/onlineleasing/storke-ranch-apts/guestlogin.aspx","6822 Phelps Road",,"CA","(805) 968-9541","sra@pshhc.org",
+282,34.43687460,-119.82102140,93117,"Goleta","Villa La Esperanza","https://villa-la-esperanza-rentcafewebsite.securecafe.com/onlineleasing/villa-la-esperanza/guestlogin.aspx","155 S. Kellogg Avenue",,"CA","(805) 964-0353","vle@pshhc.org",
+283,34.96789900,-120.56136800,93434,"Guadalupe","Guadalupe Court","https://guadalupe-court-apartments-rentcafewebsite.securecafe.com/onlineleasing/guadalupe-court-apartments/guestlogin.aspx","4202 11th Street",,"CA","(805) 249-2040","gc@pshhc.org",
+284,34.96066930,-120.58831850,93434,"Guadalupe","River View Townhomes","https://www.rentcafe.com/onlineleasing/river-view-townhomes/guestlogin.aspx","230 Calle Cesar Chavez",,"CA","(805) 343-0888","rv@pshhc.org",
+285,34.64783120,-120.45630830,93436,"Lompoc","College Park Apartments","https://www.rentcafe.com/onlineleasing/college-park/guestlogin.aspx","648 North G Street",,"CA","(805) 736-4640","cpk@pshhc.org",
+286,34.87680940,-120.43036180,93455,"Orcutt","Mariposa Townhomes","https://www.rentcafe.com/onlineleasing/mariposa-townhome/guestlogin.aspx","290 Parkview South",,"CA","(805) 934-2140","mpt@pshhc.org",
+287,34.42435600,-119.70396240,93101,"Santa Barbara","Casas las Granadas","https://www.rentcafe.com/onlineleasing/casas-las-granadas/guestlogin.aspx","21 E. Anapamu Street",,"CA","(805) 699-7223","vh@pshhc.org",
+288,34.42364600,-119.68900900,93103,"Santa Barbara","Jardin de las Rosas","https://jardin-de-las-rosas-rentcafewebsite.securecafe.com/onlineleasing/jardin-de-las-rosas/guestlogin.aspx","510 N. Salsipuedes","#100","CA","(805) 324-7745","jdlr@pshhc.org",
+289,34.40923590,-119.70091610,93103,"Santa Barbara","Ladera Street Apartments","https://www.rentcafe.com/onlineleasing/ladera-street/guestlogin.aspx","322 Ladera Street",,"CA","(805) 966-7535","lad@pshhc.org",
+290,34.44276100,-119.76198910,93110,"Santa Barbara","St. Vincent’s Garden","https://st-vincent-s-gardens-rentcafewebsite.securecafe.com/onlineleasing/st-vincent-s-gardens/guestlogin.aspx","4234 Pozzo Circle",,"CA","(805) 967-4340","svg@pshhc.org",
+291,34.42482340,-119.70502770,93103,"Santa Barbara","Victoria Hotel","https://www.rentcafe.com/onlineleasing/victoria-hotel/guestlogin.aspx","24 E. Victoria Street",,"CA","(805) 699-7223","vh@pshhc.org",
+292,34.42658210,-119.70300070,93103,"Santa Barbara","Victoria Street Bungalows ","https://www.rentcafe.com/onlineleasing/victoria-st-bungalows/guestlogin.aspx","210 W. Victoria Street",,"CA","(805) 324-7745","vsa@pshhc.org",
+293,34.94665890,-120.44976030,93458,"Santa Maria","Los Adobes de Maria","https://www.rentcafe.com/onlineleasing/los-adobes-de-maria/guestlogin.aspx","1026 W. Boone Street",,"CA","(805) 349-9341","ladm@pshhc.org",
+294,34.94668800,-120.45192050,93458,"Santa Maria","Los Adobes de Maria II","https://www.rentcafe.com/onlineleasing/los-adobes-de-maria-2/guestlogin.aspx","1148 W. Boone Street",,"CA","(805) 348-3823","ladm2@pshhc.org",
+295,34.94800220,-120.45201290,93458,"Santa Maria","Los Adobes de Maria III","https://los-adobes-de-maria-iii-rentcafewebsite.securecafe.com/onlineleasing/los-adobes-de-maria-iii/guestlogin.aspx","525 South Russell Avenue",,"CA","(805) 621-7606","ladm3@pshhc.org",
+296,34.94050310,-120.42696340,93454,"Santa Maria","Sierra Madre Cottages","https://sierra-madre-cottages-rentcafewebsite.securecafe.com/onlineleasing/sierra-madre-cottages/guestlogin.aspx","665 Sierra Madre Avenue",,"CA","(805) 614-7739","smc@pshhc.org",
+297,34.92975400,-120.43926590,93458,"Santa Maria","Valentine Court","https://www.rentcafe.com/onlineleasing/valentine-court-i/guestlogin.aspx","280 E. Newlove Drive",,"CA","(805) 925-6373","vc@pshhc.org",
+298,34.92863700,-120.43344400,93458,"Santa Maria","Valentine Court II","https://www.rentcafe.com/onlineleasing/valentine-court-ii/guestlogin.aspx","1760 S. McClelland",,"CA","(805) 925-6373","vc@pshhc.org",
+299,34.92975360,-120.43917050,93458,"Santa Maria","Valentine Court III","https://www.rentcafe.com/onlineleasing/valentine-court-iii/guestlogin.aspx","250 E. Newlove Drive",,"CA","(805) 925-6373","vc@pshhc.org",
+300,34.42514060,-119.69756770,93101,"Santa Barbara","Safe Parking",,"324 E. Carrillo Street",,"CA","(805) 845-8492",,
+301,34.43722000,-119.78105500,93110,"Santa Barbara",,,"4597 Hollister Avenue",,"CA","(805) 967-5651",,
+302,34.41944130,-119.68991380,93101,"Santa Barbara",,,"320 E. Gutierrez Street",,"CA","(805) 965-8591",,
+303,34.42163646,-119.70640386,93101,"Santa Barbara",,,"1136 De La Vina St",,"CA","(805) 569-2785",,
+312,34.44415840,-119.78064790,93110,"Santa Barbara",,,"315 Camino Del Remedio",,"CA","(805) 681-5244",,
+313,34.42953570,-119.72411690,93105,"Santa Barbara","Cottage Hospital Santa Barbara",,"400 W. Pueblo Street",,"CA","(805) 569-8339",,
+314,34.43332950,-119.81041230,93111,"Goleta","Cottage Hospital Goleta",,"351 S Patterson Ave",,"CA","(805) 569-8339",,
+315,34.44391130,-119.78000910,93110,"Santa Barbara",,,"305 Camino Del Remedio",,"CA","(805) 884-1640",,
+316,34.42967550,-119.71787660,93105,"Santa Barbara",,,"2034 De La Vina Street",,"CA","(805) 884-6850",,
+317,34.41980570,-119.68854800,93101,"Santa Barbara",,,"403 East Montecito Street","Suite A","CA","(805) 874-5922",,
+318,34.43290970,-119.80935310,93111,"Santa Barbara",,,"334 South Patterson","Ste. 120","CA","(805) 962-7800","office@recoveryroadmc.com",
+319,34.42514060,-119.69756770,93101,"Santa Barbara","New Beginnings Santa Barbara",,"324 East Carrillo Street","Suite C","CA","(805) 963-7777 ext 115","INFO@SBNBCC.ORG",
+320,34.70096570,-120.46587090,93436,"Lompoc","New Beginnings Lompoc",,"3769 Constellation Rd","Suite B","CA","(805) 430-8636","INFO@SBNBCC.ORG",
+321,34.41932950,-119.69597230,93101,"Santa Barbara","SANTA BARBARA – Headquarters",,"608 Anacapa Street","Suite A","CA","(805) 963-3636","hello@pacificpridefoundation.org",
+322,34.95219950,-120.42507290,93454,"Santa Maria","SANTA MARIA – North County",,"123 S College Drive",,"CA","(805) 963-3636","hello@pacificpridefoundation.org",
+323,34.44327110,-119.77896410,93110,"Santa Barbara",,,"4444 Calle Real",,"CA","(805) 681-5190",,
+324,34.43124680,-119.84314230,93117,"Goleta",,"https://www.easylift.org/contact-us/","53 Cass Place","Suite D","CA","(805) 681-1181",,
+325,34.97545780,-120.43292740,93454,"Santa Maria",,,"240 E. Roemer Way",,"CA","(805) 922-8476",,
+326,34.42130280,-119.69426160,93101,"Santa Barbara",,,"617 Garden Street",,"CA","(805) 844-8440","info@mentalwellnesscenter.org",
+327,34.42624950,-119.69590390,93101,"Santa Barbara",,,"923 Olive Street","Suite #1","CA","(805) 962-3363","info@ccecsb.org",
+328,34.43907010,-119.70490100,93103,"Santa Barbara",,,"2020 Alameda Padre Serra","Suite 211","CA","(805) 966-5100","team@fullspectrumrecovery.com",
+329,34.43540950,-119.74654000,93101,"Santa Barbara",,,"350 S. Hope Ave.","Suite A-107","CA","(805) 398-6030","info@JanusCounseling.com",
+330,34.41882550,-119.70201530,93101,"Santa Barbara",,,"115 West Canon Perdido Street","Suite C","CA","(805) 699-5608","sbrncommand@gmail.com",
+331,34.88067900,-120.44215430,93455,"Santa Maria","Santa Maria Cty Mental Health",,"500 West Foster Road",,"CA","(805) 934-6380",,
+333,34.63784400,-120.45224800,93436,"Lompoc",,,"100 Civic Center Plaza",,"CA","(805) 736-1261",,
+334,34.40889770,-119.69494680,93101,"Santa Barbara",,,"100 Castillo Street",,"CA",,,
+335,34.59460980,-120.14158640,93463,"Solvang",,,"431 Second Street","Suite 9","CA","(805) 688-5452",,
+336,34.41541100,-119.85827150,93117,"Goleta",,,"6586 Picasso Road",,"CA",,,
+337,34.91404420,-120.45858090,93455,"Santa Maria",,,"1303 Fairway Dr.",,"CA","(800) 417-2137","info@moore-associates.net",
+338,34.64847850,-120.45844590,93436,"Lompoc",,,"729 North H St.",,"CA","(805) 737-4464",,
+339,34.41535860,-119.85661800,93117,"Goleta",,,"6550 Picasso Road",,"CA",,,
+340,34.89864930,-120.44712750,93455,"Santa Maria",,,"3249 Terminal Drive","Suite 101","CA","(805) 928-1977","cclax@cclax.com",
+341,34.94571670,-120.43535860,93454,"Santa Maria",,,"120 East Jones Street",,"CA","(805) 925-0125",,
+343,34.63865970,-120.45765680,93436,"Lompoc",,,"102 E Ocean Ave.",,"CA","(805) 925-8000",,
+344,34.60558270,-120.09698700,93454,"Santa Ynez",,,"890 N Refugio Rd",,"CA","(805) 925-8000",,
+345,34.42443200,-119.70187960,93101,"Santa Barbara","Santa Barbara Office",,"1100 Anacapa Street",,"CA","(805) 568-3470",,
+346,34.94921020,-120.43229730,93454,"Santa Maria","Santa Maria Office",,"312-P East Cook Street",,"CA","(805) 346-7500",,
+347,34.88111710,-120.44737500,93455,"Santa Maria","Santa Maria Juvenile Office",,"4285 California Blvd","Suite C","CA","(805) 934-6944",,
+348,34.63764900,-120.45317400,93436,"Lompoc","Lompoc Office",,"115 Civic Center Plaza",,"CA","(805) 737-7770",,
+349,34.42443200,-119.70187960,93101,"Santa Barbara","McMahon Law Library",,"1100 Anacapa Street",,"CA",,,
+350,34.94921020,-120.43229730,93456,"Santa Maria","Santa Maria Law Library",,"312 E. Cook Street",,"CA",,,
+351,34.63764900,-120.45317400,93436,"Lompoc","Lompoc Resource Center",,"115 Civic Center Plaza",,"CA","(805) 346-7548",,
+352,34.42378780,-119.68877740,93101,"Santa Barbara","Santa Barbara Community Services Center and Thrifty Shopper Santa Barbara",,"609 E. Haley St.",,"CA","(805) 965-7045",,"Main office of Catholic Charites of SBC"
+353,34.40550950,-119.51475170,93013,"Carpinteria","Carpinteria Community Services Center",,"1500 Linden Avenue",,"CA","(805) 684-8621",,
+354,34.95351600,-120.42795370,93454,"Santa Maria","Santa Maria Community Services Center and Thrifty Shopper Santa Maria",,"607 W. Main Street",,"CA","(805) 922-2059",,
+355,34.64319040,-120.44678440,93436,"Lompoc","Lompoc Community Services Center",,"325 North Second Street",,"CA","(805) 736-6226",,
+356,34.97334030,-120.57236180,93434,"Guadalupe","Guadalupe Mobile Food Distribution Site",,"4681 11th St.",,"CA","(805) 922-2059",,
+357,34.41677220,-119.85991280,93117,"Isla Vista","Isla Vista Mobile Food Distribution Site",,"6647 El Colegio Road",,"CA","(805) 965-7045",,
+358,34.94578890,-119.68334600,93254,"New Cuyama","New Cuyama Mobile Food Distribution Site",,"4711 Hwy. 166",,"CA","(805) 922-2059",,
+359,34.42321950,-119.70041720,93101,"Santa Barbara","Santa Barbara Adult Services",,"117 E Carrillo Street",,"CA","(805) 882-3700",,
+360,34.44046050,-119.77571770,93110,"Santa Barbara","Santa Barbara Juvenile & PRRC",,"4500 Hollister Avenue",,"CA","(805) 692-4890",,
+361,34.54441380,-119.78086900,93105,"Santa Barbara","Los Prietos Boys Camp",,"3900 Paradise Road",,"CA","(805) 692-1750",,
+362,34.63743410,-120.45315470,93436,"Lompoc","Lompoc Adult & Juvenile Services",,"415 East Cypress Ave",,"CA","(805) 737-7800",,
+363,34.92186960,-120.43049690,93455,"Santa Maria","Santa Maria Adult & Juvenile Services",,"2121 S. Centerpointe Parkway",,"CA","(805) 803-8500",,
+364,34.88196450,-120.44642990,93455,"Santa Maria","Santa Maria Juvenile Hall",,"4263 California Boulevard",,"CA","(805) 934-6270",,
+365,34.92424890,-120.43781140,93458,"Santa Maria","Santa Maria PRRC",,"124 Carmen Lane ","Suite K","CA","(805) 346-7620",,
+366,34.63874720,-120.45114700,93436,"Lompoc",,,"604 E. Ocean Ave ","Suite B","CA","(805) 736-6582",,
+367,34.63764900,-120.45317400,93436,"Lompoc","Lompoc Office",,"115 Civic Center Plaza",,"CA","(805) 614-6442",,
+368,34.94921020,-120.43229730,93454,"Santa Maria","Santa Maria Office",,"312 East Cook Street","Building E 2nd Floor","CA","(805) 614-6442",,
+369,34.42443200,-119.70187960,93101,"Santa Barbara","Santa Barbara Office",,"1100 Anacapa Street","1st Floor","CA","(805) 882-4660",,
+371,34.44378250,-119.78095290,93110,"Santa Barbara","Benefit and Referral Center","https://countyofsb.org/phd/brc.sbc","300 N. San Antonio Rd","Room B100","CA","(805) 681-4753",,"The Benefits and Referral Center (BRC) was formed in January 2014 to provide support to a variety of indigent care programs for the Santa Barbara County Public Health Department and assist Santa Barbara residents who are uninsured and not eligible for other healthcare coverage."
+372,34.44465130,-119.78111670,93110,"Santa Barbara","Cancer Detection Partnership","https://countyofsb.org/phd/healthed/cancerdetection.sbc","345 Camino del Remedio",,"CA","(805) 681-5159","june.english@sbcphd.org","Tri-Counties Cancer Detection Partnership<&&> serving Ventura<&&> Santa Barbara and San Luis Obispo Counties<&&> is the regional contractor and local administrator for the state of California's cancer detection program for women"
+373,34.44465130,-119.78111670,93110,"Santa Barbara","California Children's Services","https://countyofsb.org/phd/pcfh/cms/ccs-home.sbc","345 Camino Del Remedio",,"CA","(805) 681-5360",,"California Children Services (CCS) provides medical care to children who are at risk for or who have serious<&&> chronic and disabling physical conditions or diseases. Anyone can refer a child to CCS; but CCS will require medical reports and prescriptions for care from a physician in order to determine eligibility and authorize services"
+374,34.39693720,-119.51700850,93013,"Carpinteria","Carpinteria Health Care Center","https://countyofsb.org/phd/health-care-centers/carpinteria.sbc","931 Walnut Avenue",,"CA","(805) 560-1050",,"The Carpinteria Health Care Center offers appointments for infants<&&> children<&&> adults<&&> seniors and women's health services. Our team of skilled medical professionals are warm<&&> compassionate staff who are committed to meeting the needs of our patients."
+375,34.44465130,-119.78111670,93110,"Santa Barbara","Child Health & Disability Prevention Program","https://countyofsb.org/phd/chdp/home.sbc","345 Camino Del Remedio",,"CA","(805) 681-5130",,"provides free well child exams for low-income children and youth in California."
+376,34.44415840,-119.78064790,93110,"Santa Barbara"," Santa Barbara Health Care Center","https://countyofsb.org/phd/primary-care/clinical-lab.sbc","315 Camino Del Remedio","Building 3<&&> 1st Floor","CA","(805) 681-5380",,"The Public Health Department operates a full service Clinical Laboratory committed to providing the highest quality technical service to its providers and patients.  The staff is a dedicated group of licensed/certified professionals with decades of patient care experience working in the community."
+377,34.64294630,-120.47100070,93436,"Lompoc","Lompoc Health Care Center Laboratory","https://countyofsb.org/phd/primary-care/clinical-lab.sbc","301 N. R Street",,"CA","(805) 737-6400",,"The Public Health Department operates a full service Clinical Laboratory committed to providing the highest quality technical service to its providers and patients. The staff is a dedicated group of licensed/certified professionals with decades of patient care experience working in the community."
+378,34.92263160,-120.43012730,93455,"Santa Maria","Santa Maria Health Care Center","https://countyofsb.org/phd/primary-care/clinical-lab.sbc","2115 S. Centerpointe Parkway",,"CA","(805) 346-8421",,"The Public Health Department operates a full service Clinical Laboratory committed to providing the highest quality technical service to its providers and patients. The staff is a dedicated group of licensed/certified professionals with decades of patient care experience working in the community. (Draw Station Only)"
+379,34.44293690,-119.78019560,93110,"Santa Barbara","Environmental Health Services","https://countyofsb.org/phd/ehs/home.sbc","225 Camino del Remedio",,"CA","(805) 681-4900",,"The Santa Barbara County Environmental Health Services (EHS) is dedicated to protecting the health and well-being of its community through the various programs that we provide."
+380,34.42507690,-119.67801570,93103,"Santa Barbara","Franklin Health Care Center","https://countyofsb.org/phd/health-care-centers/franklin.sbc","1111 E. Mason St",,"CA","(805) 568-2099",,"The Franklin Health Care Center offers appointments for infants<&&> children<&&> adults<&&> seniors and women's health services. Our team of skilled professionals and warm<&&> compassionate staff are committed to meeting the needs of our patients."
+381,34.64294630,-120.47100070,93436,"Lompoc","Lompoc Health Care Center","https://countyofsb.org/phd/health-care-centers/lompoc.sbc","301 North R Street",,"CA","(805) 737-6400",,"Lompoc Health Care Center offers a full array of health and wellness services for infants<&&> children<&&> adolescents<&&> adults and seniors. Our dedicated and caring staff of professionals have collectively over 500 years of service with the Lompoc Health Care Center. We take great pride and joy in serving the health care needs of our community."
+382,34.43124620,-119.85722630,93117,"Santa Barbara",,,"175 Cremona Drive","Suite 100","CA","(805) 963-3303",,
+383,34.66125230,-120.46173000,93436,"Lompoc",,,"425 W. Central Avenue","Suite 201","CA","(805) 735-2846",,
+384,34.65805880,-120.45925590,93436,"Lompoc","North H Center",,"1225 North H St",,"CA","(805) 737-8700",,
+385,34.93710750,-120.42968660,93454,"Santa Maria",,,"506 East Plaza Drive ","Suite #5","CA","(805) 614-2040",,
+386,34.93567920,-120.43433050,93454,"Santa Maria",,,"1444 S. Broadway",,"CA","(805) 614-1300",,
+387,34.59722060,-120.13761660,93463,"Solvang",,,"545 N. Alisal Road","Suite 102","CA","(805) 686-0295",,
+388,34.42130280,-119.69426160,93101,"Santa Barbara",,,"617 Garden St",,"CA","(805) 884-1010",,
+389,34.64303090,-120.47140570,93436,"Lompoc",,,"1100 W. Laurel Avenue",,"CA","(805) 737-7080",,
+391,34.64205340,-120.45885090,93437,"Lompoc",,,"120 W. Chestnut Avenue",,"CA","(805) 740-4555","jkelly@communifysb.org",
+393,34.04942890,-118.25005840,90013,"Los Angeles",,,"320 West 4th Street","Suite 500","CA","(213) 576-7000",,
+394,34.63747810,-120.45381060,93436,"Lompoc",,,"401 E. Cypress Street","#102 ","CA",,,
+395,34.66350880,-120.45840090,93436,"Lompoc",,,"1601 N H Street",,"CA",,,
+396,34.94760160,-120.43472790,93454,"Santa Maria",,,"523 S McClelland Street",,"CA",,,
+397,34.42879630,-119.87691010,93117,"Goleta","Goleta DMV Field Office","https://www.dmv.ca.gov/portal/field-office/santa-maria/","7127 Hollister Avenue","Suite 24/26","CA",,,
+398,34.41310850,-119.70132670,93101,"Santa Barbara","Santa Barbara DMV Field Office","https://www.dmv.ca.gov/portal/field-office/santa-barbara/","535 Castillo Street",,"CA",,,
+399,34.42404390,-119.70855250,93101,"Santa Barbara","Corporate Offices",,"110 West Sola Street",,"CA","(805) 965-4122","info@unityshoppe.org","Mailing Address: 1209 State Street"
+400,34.44447640,-119.77873980,93110,"Santa Barbara ","Santa Barbara Main Office",,"234 Camino Del Remedio",,"CA","(805) 381-4401",,
+401,34.42417670,-119.70835780,93101,"Santa Barbara","Client Services and In-Kind Donations",,"1401 Chapala Street",,"CA",,"referrals@unityshoppe.org",
+402,34.42334190,-119.70516060,93101,"Santa Barbara","Gift Shoppe",,"1209 State Street",,"CA","(805) 564-4402",,"Also mailing address for corporate offices"
+403,34.64303090,-120.47140570,93436,"Lompoc","Lompoc Main Office",,"1100 W Laurel Ave",,"CA","(805) 737-7080",,
+404,34.92169260,-120.42901150,93455,"Santa Maria","Santa Maria Main Office",,"2125 S. Centerpointer Pkwy",,"CA","(805) 346-7135",,
+405,34.93567920,-120.43433050,93454,"Santa Maria","Santa Maria Self- Sufficiency Services",,"1444 S. Broadway",,"CA","(805) 614-1300",,"Services Offered: CalWORKs<&&> Workforce Investment Board<&&> America's Job Centers of California One-Stop<&&> Workforce Investment & Opportunity Act<&&> and State Appeals"
+406,34.92473510,-120.43929010,93458,"Santa Maria","Santa Maria Adult & Children Services",,"304 W. Carmen Lane",,"CA","(805) 346-7135",,"Services Offered: Adult Services<&&> In-Home Care Network<&&> Foster Care/Adoption Services"
+407,34.93599950,-120.43441280,93454,"Santa Maria","Santa Maria Workforce Resource Center",,"1410 S. Broadway",,"CA","(805) 614-1550",,
+408,34.43984910,-119.72445290,93105,"Santa Barbara",,,"50 E. Alamar Avenue",,"CA",,,
+409,34.41689180,-119.70026170,93101,"Santa Barbara","Santa Barbara Workforce Resource Center",,"130 E. Ortega Street",,"CA","(805) 568-1296",,
+410,34.43000000,-119.80000000,93160,"Santa Barbara",,,"P.O. Box 60524",,"CA","(805) 968-2273",,
+411,34.62348610,-120.18638500,93427,"Buellton",,,"111 Commerce Drive ",,"CA","(805) 688-8224",,
+412,34.43892090,-119.81386690,93117,"Goleta","Santa Barbara",,"5473 Overpass Road",,"CA","(805) 681-5285",,
+413,34.66132990,-120.47579280,93436,"Lompoc","Lompoc",,"1501 West Central Avenue",,"CA","(805) 681-5285",,
+415,34.88250700,-120.44233430,93455,"Santa Maria","Santa Maria",,"548 W. Foster Road",,"CA","(805) 934-6119",,
+416,34.64250310,-120.45750090,93436,"Lompoc","Lompoc Thrift Store",,"101 East Chestnut",,"CA",,,
+417,34.63865080,-120.45917770,93436,"Lompoc",,,"124 N I St",,"CA","(805) 928-5000",,
+418,34.61363710,-120.19535420,93427,"Buellton",,,"56 West Hwy 246",,"CA","(805) 688-5073",,
+419,34.59342100,-120.13973680,93463,"Solvang",,,"1689 Oak Street",,"CA","(805) 688-6144",,
+420,34.61235970,-120.07893550,93460,"Santa Ynez",,,"3630 Sagunto St G",,"CA","(805) 688-8005",,
+421,34.60993250,-120.18980100,93427,"Buellton","People Helping People Thrift Store",,"175 McMurray Rd",,"CA","(806) 686-9897",,
+422,34.91998170,-120.45435070,93455,"Santa Maria",,,"2215 Skyway Dr",,"CA","(805) 349-2333",,
+424,34.95228080,-120.43101450,93454,"Santa Maria",,,"409 E Church St",,"CA","(805) 739-8885",,
+425,34.92783830,-120.43591640,93454,"Santa Maria",,,"1782 S. Broadway",,"CA","(805) 346-6083",,
+426,34.93328950,-120.43445780,93454,"Santa Maria",,,"210 E Enos Dr.","Suite C","CA","(805) 349-1212",,
+427,34.44541800,-119.82926210,93117,"Goleta","Good Shepherd Pantry at Good Shepherd Lutheran Church",,"380 N. Fairview Avenue",,"CA",,,
+428,34.44861640,-119.83102550,93117,"Goleta",,,"595 N. Fairview Avenue",,"CA",,,
+429,34.41553940,-119.85740160,93117,"Isla Vista",,,"781 Embarcadero Del Mar",,"CA",,,
+430,34.42714000,-119.67939850,93103,"Santa Barbara","WIC Santa Barbara",,"1136 E. Montecito Street",,"CA","(805) 681-5275",,"Open 1st and 3rd Thursday 8:30 a.m-5:00 p.m."
+431,34.39540270,-119.51832970,93013,"Carpinteria","WIC Carpinteria",,"5201 8th Street","Suite 314","CA","(805) 681-5275",,"Open 2nd and 4th Wednesday—8:30 a.m-5:00 p.m.<&&> closed 12:30- 1:00 for lunch "
+432,34.44415840,-119.78064790,93110,"Santa Barbara","WIC Santa Barbara - 2",,"315 Camino del Remedio",,"CA","(805) 681-5275",,"Monday-Thursday—8:00-5:30 p.m.  Friday—8:00-4:30 p.m.  Closed 2nd and 4th Wednesday and 1st and 3rd Thursday"
+433,34.92459450,-120.43904870,93458,"Santa Maria",,,"222 W Carmen Ln",,"CA",,,
+434,34.92175130,-120.43702330,93454,"Santa Maria",,,"2125 S Broadway","Suite 112","CA","(805) 614-5000",,
+435,34.92175130,-120.43702330,93454,"Santa Maria",,"https://www.select.com/locations/santa-maria-ca/80006-6039","2125 S. Broadway","Suite 109","CA","(805) 928-9667",,
+436,34.95221590,-120.43868870,93458,"Santa Maria",,,"110 S Pine St.",,"CA","(805) 928-6555",,
+437,34.41961450,-119.71041000,93101,"Santa Barbara",,,"423 W. Victoria Street",,"CA","(805) 897-2560",,
+438,34.95221590,-120.43868870,93458,"Santa Maria",,,"110 S Pine St",,"CA","(805) 928-6555",,
+439,34.42714000,-119.67939850,93103,"Santa Barbara",,,"1136 E. Montecito Street",,"CA","(805) 897-2582",,
+440,34.93328950,-120.43445780,93454,"Santa Maria",,,"210 E Enos Dr",,"CA","(805) 928-5282",,
+441,34.42507690,-119.67801570,93103,"Santa Barbara",,,"1111 E. Mason Street",,"CA","(805) 963-4283",,
+442,34.94366310,-120.44207510,93458,"Santa Maria",,,"509 W. Morrison Avenue",,"CA","(805) 928-1737",,
+443,34.44048500,-119.79040460,93111,"Goleta",,,"11 Camino De Vida",,"CA",,,
+444,34.43508020,-119.82316510,93117,"Goleta",,,"5679 Hollister Avenue",,"CA","(805) 967-1237",,
+445,34.94979900,-120.43430500,93454,"Santa Maria",,"https://santamaria.salvationarmy.org/santa_maria_corps/","200 W. Cook Street",,"CA","(805) 324-2372",,
+446,34.40630200,-119.51501520,93013,"Carpinteria",,,"1532 Linden Avenue",,"CA","(805) 684-2181","StJoseph@stjosephchurch.org",
+447,34.93970810,-120.41982870,93454,"Santa Maria",,,"1026 Sierra Madre Avenue",,"CA","(805) 922-1919",,"dinner and haircuts offered "
+448,34.94313600,-120.44028200,93454,"Santa Maria","Overflow Shelter",,"401-D W. Morrison Avenue",,"CA","(805) 347-3338",,
+449,34.39540270,-119.51832970,93013,"Carpinteria",,,"5201 8th Street",,"CA","(805) 203-6648","info@carpchildren.org",
+450,34.94313600,-120.44028200,98454,"Santa Maria","Family Shelter",,"401-A W. Morrison Avenue",,"CA","(805) 347-3338",,"90 day shelter with extensions available<&&> up to 2 years  maximum. Private or shared rooms available.  Cost: 30% of gross income "
+451,34.96950130,-120.43751840,93454,"Santa Maria",,,"200 W. Williams Street",,"CA","(805) 925-4393",,
+452,34.92671980,-120.43442270,93454,"Santa Maria","Rancho Hermosa",,"235 Inger Dr",,"CA","(805) 925-0800",,"Very low-income housing for the homeless and those at  risk of homelessness and diagnosed with substance  abuse and/or mental health issues. 12 units. Provides permanent supportive housing and  monthly case management. Cost: 30% of gross income "
+454,34.93009360,-120.43520050,93454,"Santa Maria",,,"1660 S. Broadway ","#101","CA","(805) 922-0329",,
+455,34.41541100,-119.85827150,93117,"Isla Vista","St. Michael’s University Church",,"6586 Picasso Road",,"CA",,,
+456,34.42497160,-119.69183080,93103,"Santa Barbara","Girls Inc.","https://girlsincsb.org/","531 East Ortega Street",,"CA","(805) 963-4017",,
+457,34.43416080,-119.81404690,93111,"Goleta","St. Athanasius Church","https://www.stathanasius.org/","300 Sumida Gardens Ln",,"CA","(805) 685-5400","office@stathanasius.org",
+458,34.43011860,-119.70708390,93101,"Santa Barbara","Unity Church","https://www.santabarbaraunity.org/","227 E Arrellaga St",,"CA","(805) 966-2239","unity@santabarbaraunity.org",
+459,34.92463670,-120.43832860,93454,"Santa Maria",,,"212 Carmen Lane","Suite 201","CA","(805) 739-8706",,
+460,34.41701850,-119.66897470,93103,"Santa Barbara",,,"1118 E. Cabrillo Boulevard",,"CA",,,
+461,34.42466920,-119.70401810,93101,"Santa Barbara",,,"1219 Anacapa Street",,"CA",,,
+462,34.42304000,-119.69151560,93101,"Santa Barbara",,,"425 E. Cota Street",,"CA",,,"Laundry 2nd<&&> 3rd<&&> and 4th Friday of the month. Part of Women’s  Free Homeless Clinic."
+463,34.42499600,-119.68292200,93103,"Santa Barbara","House of Laundry",,"310 N. Milpas Street",,"CA","(805) 882-1986",,
+464,34.43035780,-119.68977310,93103,"Santa Barbara","North Milpas Laundry / Launderland Coin Op","http://northmilpaslaundry.com/","834 N. Milpas Street",,"CA","(805) 966-1863",,
+465,34.41575090,-119.69636180,93101,"Santa Barbara",,,"35 E. Haley Street",,"CA","(805) 966-6716",,
+467,34.42532460,-119.70774290,93101,"Santa Barbara",,,"1415 State Street",,"CA",,,
+468,34.42173400,-119.69405010,93101,"Santa Barbara",,,"630 Garden Street",,"CA","(805) 564-5420","ABifano@SantaBarbaraCA.gov AMarshall@SantaBarbaraCA.gov",
+470,34.42087910,-119.70209420,93101,"Santa Barbara",,,"15 W. Carrillo Street","#106","CA","(805) 569-5511",,
+471,34.42154460,-119.70216820,93101,"Santa Barbara",,,"4 E. Carrillo Street",,"CA","(866) 901-3212",,
+472,34.87818700,-120.32894700,93454,"Santa Maria","McMillan Ranch","https://www.telecarecorp.com/mcmillan-ranch","3840 Orcutt Garey Rd",,"CA","(805) 937-2826",,"At McMillan Ranch<&&> we provide comprehensive mental health and psychiatric treatment services in a safe<&&> welcoming homelike environment for adults with serious mental illness."
+473,34.92424890,-120.43781140,93458,"Santa Maria","Santa Maria ACT","https://www.telecarecorp.com/santa-maria-act","124 Carmen Lane ","Suite A","CA","(805) 348-1850",,
+474,34.92424890,-120.43781140,93458,"Santa Maria","New Goals Counseling",,"124 W. Carmen Lane","Suite G","CA","(805) 264-6448",,"Spanish"
+475,34.94880010,-120.45289500,93458,"Santa Maria","Community Health Center Santa Maria",,"430 S Blosser Road",,"CA","(805) 361-8900",,
+476,34.95475260,-120.43551550,93454,"Santa Maria","Santa Maria - Broadway Dental","https://www.communityhealthcenters.org/locations/santa-maria-broadway-dental/","210 N Broadway",,"CA","(805) 347-1171",,
+477,34.94388170,-120.43770820,93454,"Santa Maria","Santa Maria - High School","https://www.communityhealthcenters.org/locations/santa-maria-high-school/","829 S Lincoln ","Space 907","CA","(805) 614-9275",,"CLOSED DUE TO COVID Please visit Del Valle Pediatrics or Vallarta for an appointment"
+478,34.93825890,-120.43096950,93454,"Santa Maria","Santa Maria Coastal Dental","https://www.communityhealthcenters.org/locations/santa-maria-coastal-dental/","1304 Miller Street",,"CA","(805) 352-1188",,
+479,34.95252570,-120.41375150,93454,"Santa Maria","Santa Maria - Arbor Women's Health","https://www.communityhealthcenters.org/locations/santa-maria-arbor-wh/","1418 E. Main Street","Suite 210","CA","(805) 928-3678",,"Women’s Health Chiropractic Wellness Pregnancy Program (CPSP) Health Education"
+480,34.97348780,-120.43596610,93454,"Santa Maria","Santa Maria - Vallarta","https://www.communityhealthcenters.org/locations/santa-maria-vallarta/","1835 N. Broadway",,"CA","(805) 345-3701",,"Pediatrics Chiropractic"
+481,34.90882110,-120.43442530,93454,"Santa Maria","Santa Maria Way CHC","https://www.communityhealthcenters.org/locations/santa-maria-way/","2801 Santa Maria Way",,"CA","(805) 934-5400",,"Primary Care Pediatrics Chiropractic Wellness Pregnancy Program (CPSP) Women’s Health Behavioral Health Podiatry"
+482,34.93757540,-120.42770610,93454,"Santa Maria",,,"607 Plaza Dr",,"CA","(877) 547-7401",,
+483,34.88067900,-120.44215430,93455,"Santa Maria","Santa Maria County Mental Health",,"500 W. Foster Rd",,"CA","(805) 934-6385",,
+484,34.92463670,-120.43832860,93458,"Santa Maria","CARES North","https://www.countyofsb.org/behavioral-wellness/contacts.sbc","212 Carmen Ln",,"CA","(805) 739-8700",,"Western Village Shopping Center"
+485,34.63923740,-120.46188850,93436,"Lompoc","Santa Barbara County Behavioral Wellness",,"401 E. Ocean Ave",,"CA","(805) 737-6600",,
+486,34.63986040,-120.45063790,93436,"Lompoc","Adult Mental Health Services",,"117 North B Street",,"CA","(805) 737-6690",,
+487,34.44012360,-119.78138880,93110,"Santa Barbara","Crestwood Behavorial Health Inc","https://crestwoodbehavioralhealth.com/location/santa-barbara-crisis-residential/","66 South San Antonio Road",,"CA","(805) 947-5175",,"Crestwood’s Santa Barbara Crisis Residential is a short-term<&&> voluntary<&&> mental health Crisis Residential Treatment Program that welcomes our guests into a warm<&&> homelike environment. Guests are provided with innovative programs that are based on Crestwood’s commitment to providing a continuum of care that puts them on the road to recovery."
+488,34.44606770,-119.78076250,93110,"Santa Barbara","Children's Mental Health Services",,"429 N. San Antonio Road",,"CA","(805) 884-1600",,
+489,34.44327110,-119.77896410,93110,"Santa Barbara","Adult Mental Health Services Santa Barbara",,"4444 Calle Real",,"CA","(805) 681-5190",,
+490,34.42967550,-119.71787660,93110,"Santa Barbara","De La Vina Clinic",,"2034 De La Vina St",,"CA","(805) 681-5450",,
+491,34.44415840,-119.78064790,93110,"Santa Barbara","Psychiatric Health Facility",,"315 Camino del Remedio",,"CA","(805) 681-5244",,
+492,34.44415840,-119.78064790,93110,"Santa Barbara","Alcohol & Drug Program",,"315 Camino Del Remedio",,"CA","(805) 681-5440",,
+493,34.95960790,-120.44192920,93454,"Santa Maria","Foursquare Church","https://sm4.org/","709 N. Curryer Street",,"CA",,,
+494,34.93970810,-120.41982870,93454,"Santa Maria","Cornerstone Church",,"1026 Sierra Madre Avenue",,"CA",,,"shower and haircuts available "
+495,34.96687090,-120.43373760,93454,"Santa Maria",,,"1503 N. McClelland St",,"CA","(805) 619-8764",,
+496,34.95941700,-120.44516970,93458,"Santa Maria",,,"619 N. Railroad Avenue",,"CA",,,
+497,34.94958920,-120.43715840,93458,"Santa Maria",,,"402 S Lincoln St.",,"CA","(805) 922-3575",,
+498,34.95173590,-120.42653490,93454,"Santa Maria",,,"200 S. E Ave",,"CA","(805) 922-1015",,
+499,34.40480720,-119.69478920,93101,"Santa Barbara","Leadbetter Beach","https://www.santabarbaraca.gov/gov/depts/parksrec/parks/features/beaches/leadbetter.asp","Shoreline Dr",,"CA",,,
+500,34.40891220,-119.69299010,93101,"Santa Barbara","Chase Palm Park","https://www.santabarbaraca.gov/gov/depts/parksrec/parks/features/playgrounds/chase.asp","323 E Cabrillo Blvd",,"CA","(805) 897-1983",,
+501,34.41986730,-119.66136620,93190,"Santa Barbara","East Beach",,"1400 Cabrillo Blvd",,"CA","(805) 564-5418",,
+502,34.42130280,-119.69426160,93101,"Santa Barbara","Mental Wellness Center","https://mentalwellnesscenter.org/","617 Garden Street",,"CA","(805) 844-8440","info@mentalwellnesscenter.org",
+503,34.42497160,-119.69183080,93103,"Santa Barbara","Girls Inc.","https://girlsincsb.org/","531 East Ortega Street",,"CA","(805) 963-4017",,
+504,34.40889770,-119.69494680,93101,"Santa Barbara","Pershing Park",,"100 Castillo Street",,"CA",,,
+505,34.41961460,-119.66954050,93103,"Santa Barbara","Dwight Murphy Field","https://www.santabarbara.com/activities/parks/dwight-murphy-field/","501 Ninos Drive",,"CA","(805) 564-5418",,
+506,34.43416080,-119.81404690,93111,"Goleta","St. Athanasius Church","https://www.stathanasius.org/","300 Sumida Gardens Ln",,"CA","(805) 685-5400","office@stathanasius.org",
+507,34.42844470,-119.70543210,93101,"Santa Barbara","Alameda Park","https://www.santabarbaraca.gov/gov/depts/parksrec/parks/features/horticulture/alameda.asp","1400 Santa Barbara St",,"CA","(805) 564-5418",,"Clinic located at the corner of Micheltorena and Anacapa Streets."
+508,34.41541100,-119.85827150,93117,"Isla Vista","St. Michael’s University Church",,"6586 Picasso Road",,"CA",,,
+509,34.42162360,-119.69977400,93101,"Santa Barbara","Marshalls","https://www.marshalls.com/us/store/index.jsp","900 State St (At E. Canon Perdido St.)",,"CA","(805) 965-2433",,
+510,34.43024220,-119.69113330,93103,"Santa Barbara",,,"915 North Milpas Street",,"CA","(844) 594-0343",,
+511,34.42714000,-119.67939850,93103,"Santa Barbara","Franklin Health Care Center","https://countyofsb.org/phd/health-care-centers/franklin.sbc","1136 E. Montecito Street",,"CA","(805) 568-2099",,
+512,34.41880600,-119.67648190,93103,"Santa Barbara","Franklin Health Care Center @ PATH","https://www.countyofsb.org/phd/health-care-centers/homeless-shelters.sbc","816 Cacique Street",,"CA","(805) 884-8481",,
+513,34.41915370,-119.68458920,93103,"Santa Barbara","Franklin Health Care Center @ Santa Barbara Rescue Mission","https://www.countyofsb.org/phd/health-care-centers/homeless-shelters.sbc","535 E. Yanonali  Street",,"CA","(805) 966-1316",,"Temporarily Closed"
+514,34.44465130,-119.78111670,93110,"Santa Barbara","Santa Barbara Health Care Center","https://www.countyofsb.org/phd/health-care-centers/sb.sbc","345 Camino del Remedio",,"CA","(805) 681-5488",,
+515,34.39693720,-119.51700850,93013,"Carpinteria","Carpinteria Health Care Center","https://www.countyofsb.org/phd/health-care-centers/carpinteria.sbc","931 Walnut Avenue",,"CA","(805) 560-1050",,
+516,34.64294630,-120.47100070,93436,"Lompoc","Lompoc Health Care Center","https://www.countyofsb.org/phd/health-care-centers/lompoc.sbc","301 North R Street",,"CA","(805) 737-6400",,
+517,34.94389200,-120.44102300,93458,"Santa Maria","Santa Maria Health Care Center @ Good Samaritan","https://www.countyofsb.org/phd/health-care-centers/homeless-shelters.sbc","401 West Morrison",,"CA","(805) 346-7230",,
+518,34.92263160,-120.43012730,93455,"Santa Maria","Santa Maria Health Care Center","https://www.countyofsb.org/phd/health-care-centers/sm.sbc","2115 Centerpointe Parkway",,"CA","(805) 346-7230","phdhcc@sbcphd.org",
+519,34.42103230,-119.69225540,93101,"Santa Barbara",,,"518 Garden Street",,"CA","(888) 898-3806",,
+520,34.89567660,-120.42360260,93455,"Santa Maria",,,"3435 Santa Maria Way",,"CA","(805) 934-1253",,
+521,34.92813460,-120.44117110,93458,"Santa Maria",,,"1775 S Thornburg Street",,"CA","(805) 925-7118",,
+522,34.41923270,-119.71605330,93101,"Santa Barbara",,,"628 West Micheltorena Street",,"CA","(844) 594-0343","info@sbclinics.org",
+523,34.44378250,-119.78095290,93110,"Santa Barbara",,,"300 N. San Antonio Road",,"CA","(805) 861-5451",,"See County of Santa Barbara Health Care Centers for full list of available services.Public Health Nurse Outreach Locations:Salvation Army in SB & SM<&&>Victory Outreach in Lompoc<&&>Recovery Point Detox in SM<&&>Mariposa House in SM<&&>Hotel de Riviera in SB<&&>St Mark's University Parish Isla Vista<&&>Noah's Anchorage in SB<&&>Bridge House in Lompoc<&&>Domestic Violence Solutions in SB<&&> SM & Lompoc<&&>Rescue Mission in SB<&&>Transition House in SB<&&>Mark's House in Lompoc<&&>Transitions Mental Health Drop in Center in Lompoc<&&>Another Road Detox in Lompoc<&&>Central Coast Collaborative on Homelessness (C3H)<&&>Pescadero Lofts in Goleta<&&>Carp Connect in Carpinteria"
+524,34.44378250,-119.78095290,93110,"Santa Barbara","Benefits and Referral Center",,"300 N. San Antonio Road","Room B 100","CA","(805) 681-5393",,
+525,34.43034480,-119.69123570,93103,"Santa Barbara",,,"923 N. Milpas Street",,"CA","(805) 884-1998",,
+526,34.43627450,-119.82198240,93117,"Goleta",,,"164 Kinman Avenue",,"CA","(805) 617-7900",,
+527,34.91358230,-120.43445780,93455,"Santa Maria",,,"2548 S. Broadway",,"CA","(805) 310-4468",,
+529,34.90529990,-120.45161430,93455,"Santa Maria",,,"3010 Skyway Drive #F",,"CA","(805) 922-2043",,
+530,34.42415060,-119.69484210,93101,"Santa Barbara",,,"808 Laguna Street",,"CA","(805) 965-1071",,"Zero interest security deposit loan/grant to qualifying  low-income residents. Income must be at or below 80%  of the area median income. Must rent within the city of  Santa Barbara."
+531,34.91259600,-120.43477290,93455,"Santa Maria",,,"2620 Santa Maria Way",,"CA","(805) 922-1822",,
+532,34.42304000,-119.69151560,93101,"Santa Barbara","Transition House",,"425 E. Cota St.",,"CA","(805) 966-9668",,
+533,34.96117020,-120.57555400,93434,"Guadalupe",,,"267 Campodonico Ave",,"CA","(805) 343-6322","beatitudecatholicworker@gmail.com",
+534,34.86899760,-120.42276980,93455,"Orcutt",,,"933 Patterson Road ",,"CA",,,
+535,34.86166750,-120.44321190,93455,"Orcutt",,,"420 Soares Ave",,"CA","(805) 937-9750",,
+536,34.96593390,-120.44931020,93458,"Santa Maria",,,"966 W. Orchard St",,"CA","(805) 922-7099",,
+537,34.95599790,-120.40852940,93454,"Santa Maria",,,"324 N Suey Rd",,"CA","(805) 925-2116",,
+538,34.97334030,-120.57236180,93434,"Guadalupe",,,"4681 11th St",,"CA","(805) 343-1194",,
+539,34.96882950,-120.56525770,93434,"Guadalupe","Guadalupe Ranch Acres","https://hasbarco.org/guadalupe-ranch-acres/","1020 Escalante Street",,"CA",,,
+540,34.43947100,-119.73500300,93105,"Santa Barbara","Cox Store",,"3303 State Street",,"CA","(855) 222-3252",,
+541,34.44447640,-119.77873980,93101,"Santa Barbara",,,"234 Camino Del Remedio",,"CA","(805) 681-4401",,
+542,34.92169260,-120.42901150,93454,"Santa Maria","WIC South Santa Maria",,"2125 S. Centerpointe Parkway","Suite 306","CA",,,
+543,34.95668260,-120.43405950,93454,"Santa Maria","WIC - North Santa Maria",,"400 N. McClelland Street",,"CA","(805) 346-8450",,
+544,34.97334030,-120.57236180,93434,"Guadalupe","WIC - Guadalupe",,"4681 11th Street",,"CA","(805) 346-8450",,
+545,34.43603120,-119.82171110,93117,"Goleta","CommUnify Central Administration",,"5638 Hollister Ave.",,"CA","(805) 964-8857",,
+546,34.43425100,-119.82354600,93117,"Goleta","Goleta I & II Centers",,"5681 Hollister Ave.",,"CA","(805) 967-3637",,"Children's Services"
+547,34.91723010,-120.45709580,93455,"Santa Maria",,,"1265 W McCoy Lane",,"CA","(805) 925-7500",,"haircuts offered "
+548,34.43508020,-119.82316510,93117,"Goleta","Goleta Valley Community Center",,"5679 Hollister Ave.",,"CA","(805) 683-1124",,"Senior Services"
+549,34.95028940,-120.43632610,93454,"Santa Maria","Santa Maria",,"311 S. Broadway",,"CA",,,"Light Breakfast Offered"
+550,34.39727100,-119.51716040,93013,"Carpinteria","Carpinteria Veteran's Memorial Hall",,"941 Walnut Ave.",,"CA","(805) 684-6090",,"Senior Services"
+551,34.39540270,-119.51832970,93013,"Carpinteria","Betty Sanchez / Carpinteria Infant and Toddler Centers",,"5201 8th St.","Suite 205","CA","(805) 566-1610",,"Children's Services"
+552,34.44606770,-119.78076250,93110,"Santa Barbara","Children's Mental Health Services",,"429 N. San Antonio Rd.",,"CA","(805) 884-1600",,"Family & Youth Services"
+553,34.42642630,-119.68851000,93103,"Santa Barbara","Cal-SOAP","https://calsoapsb.org/","721 E. Cota St.",,"CA","(805) 730-7373",,"Family & Youth Services"
+554,34.44140940,-119.76350630,93110,"Santa Barbara","Villa Caridad",,"4202 Calle Real",,"CA","(805) 683-4375",,"Senior Services"
+555,34.96067710,-120.43621320,93454,"Santa Maria","Morning Star Laundry","https://crestwoodchristian.net/morning-star-laundry/","809 N. Broadyway",,"CA",,"tom@crestwoodchristian.net",
+556,34.94313600,-120.44028200,93454,"Santa Maria","Dress for Success",,"401 W. Morrison Avenue ","C","CA",,,
+557,34.42334720,-119.69467250,93101,"Santa Barbara","Presidio Springs",,"721 Laguna St.",,"CA","(805) 963-7567",,"Senior Services"
+558,34.42217150,-119.70764450,93101,"Santa Barbara","Louise Lowry Davis Center",,"1232 De La Vina St.",,"CA","(805) 897-2568",,"Senior Services"
+559,34.42714000,-119.67939850,93103,"Santa Barbara","Franklin Neighborhood Center",,"1136 E. Montecito St.",,"CA","(805) 568-2099",,"Senior Services"
+560,34.43191880,-119.71670590,93105,"Santa Barbara","Storyteller Children's Center",,"2115 State St.",,"CA","(805) 682-9585",,"Children's Services"
+561,34.40956160,-119.70291270,93101,"Santa Barbara","Coronel Center",,"629 Coronel Place",,"CA","(805) 966-4552",,"Children's Services"
+562,34.41609780,-119.69911670,93101,"Santa Barbara","Los Ninos Center",,"130 E. Cota St.",,"CA","(805) 963-2955",,"Children's Services"
+563,34.64205340,-120.45885090,93436,"Lompoc","Chestnut Toddler Center",,"120 W. Chestnut Ave.",,"CA","(805) 740-4555",,"Children's Services"
+564,34.63923740,-120.46188850,93436,"Lompoc","Santa Barbara County Adult Mental Health Center - Lompoc",,"401 E. Ocean Ave.",,"CA","(805) 737-6600",,"Family & Youth Services"
+565,34.64798060,-120.46889130,93436,"Lompoc","Weitzel Center",,"640 North Q St.",,"CA","(805) 310-1557",,"Senior Services"
+566,34.63806510,-120.47149570,93436,"Lompoc","Dick DeWees Community Center",,"1120 W. Ocean Ave.",,"CA","(805) 737-9366",,"Senior Services"
+567,34.63807140,-120.44049810,93436,"Lompoc","Cypress Court",,"125 S. 7th St.",,"CA","(805) 310-1557",,"Senior Services"
+568,34.64783120,-120.45630830,93436,"Lompoc","College Street Center",,"648 North G St.",,"CA","(805) 737-7272",,"Children's Services"
+569,34.64524020,-120.45867090,93436,"Lompoc","Maple Center",,"120 W. Maple Ave.",,"CA","(805) 736-7574",,"Children's Services"
+570,34.63619760,-120.45889380,93436,"Lompoc","I Street Center",,"228 North I St.",,"CA","(805) 735-8392",,"Children's Services"
+571,34.65143260,-120.44156920,93436,"Lompoc","Fillmore Center",,"1316 E. Oak St.",,"CA","(805) 736-2811",,"Children's Services"
+572,34.64205340,-120.45885090,93436,"Lompoc","CommUnify Chestnut Office",,"120 West Chestnut Ave.",,"CA","(805) 740-4555",,"Administration & Enrollment"
+573,34.62120710,-120.20699670,93427,"Buellton","Oak Valley Center",,"595 2nd St.",,"CA","(805) 688-6992",,"Extension 1109"
+574,34.94356150,-119.67517850,93254,"New Cuyama","Cuyama Center",,"2300 Highway","#166 ","CA","(661) 766-2759",,"Children's Services"
+575,34.97098490,-120.57022610,93434,"Guadalupe","Guadalupe Senior Center",,"4545 Tenth St.",,"CA","(805) 343-0615",,"Senior Services"
+576,34.95804270,-120.57634080,93434,"Guadalupe","Maggie Espinoza Center",,"120 Tognazzini Ave.",,"CA","(805) 343-5598",,"Children's Services"
+577,34.86166750,-120.44321190,93455,"Orcutt","Luis Oasis Senior Center",,"420 Soares Ave.",,"CA","(805) 937-9750",,"Senior Services"
+578,34.88067900,-120.44215430,93455,"Santa Maria","Santa Barbara County Mental Health Center - Santa Maria",,"500 W. Foster Rd.",,"CA","(805) 934-6590",,"Family & Youth Services"
+579,34.94453800,-120.44202860,93454,"Santa Maria","Elwin Mussell Senior Center",,"510 E. Park Ave.",,"CA","(805) 925-4977",,"Senior Services"
+580,34.96302690,-120.44374700,93454,"Santa Maria","Atkinson Community Center",,"1000 N. Railroad Ave.",,"CA","(805) 925-0951",,"Extension 413"
+581,34.92637420,-120.45484570,93458,"Santa Maria","Westgate Center",,"1240 W. Bethel Ln.","#1A","CA","(805) 347-8400",,"Children's Services"
+582,34.89538460,-120.48197960,93455,"Santa Maria","Tanglewood Center",,"1890 Sandalwood Dr. ",,"CA","(805) 614-0786",,"Children's Services"
+583,34.93993870,-120.42048140,93454,"Santa Maria","Sierra Madre Center",,"1002 E. Sierra Madre Ave.",,"CA","(805) 349-9707",,"Children's Services"
+584,34.95374150,-120.43350350,93458,"Santa Maria","JC Washington / Chapel Center",,"201 W. Chapel St.",,"CA","(805) 922-2243",,"Children's Services"
+585,34.92935480,-120.44404460,93458,"Santa Maria","Meridian Center",,"1720 S. Depot St.",,"CA","(805) 739-0660",,"Children's Services"
+586,34.93362720,-120.42869640,93454,"Santa Maria","Los Padres Center",,"530 E. Enos Dr.",,"CA","(805) 928-6228",,"Children's Services"
+587,34.94665890,-120.44976030,93458,"Santa Maria","Los Adobes Center",,"1026 W. Boone St.",,"CA","(805) 928-0044",,"Children's Services"
+588,34.95400020,-120.43336710,93458,"Santa Maria","Little Village Center",,"219 W. Chapel St.",,"CA","(805) 614-5151",,"Children's Services"
+589,34.94432530,-120.44100660,93458,"Santa Maria","Buena Vista Center",,"400 W. Park Ave.",,"CA","(805) 922-1439",,"Children's Services"
+590,34.96187400,-120.42277900,93454,"Santa Maria","Alvin Center",,"316 E. McElhaney Ave.",,"CA","(805) 347-1975",,"Children's Services"
+591,34.93626860,-120.44264940,93458,"Santa Maria","Adam Center",,"500 W. Windsor St. ",,"CA","(805) 925-6667",,"Children's Services"
+592,34.95374150,-120.43350350,93458,"Santa Maria","CommUnify Chapel Office",,"201 West Chapel St.",,"CA","(805) 922-2243",,"Administration & Enrollment"
+593,34.42084110,-119.70520580,93101,"Santa Barbara",,,"122 W. Figueroa Street",,"CA","(866) 695-6285",,
+594,34.44036350,-119.76143730,93110,"Santa Barbara",,,"4141 State Street",,"CA","(805) 963-6631","reception@crrsbc.org",
+595,34.92424890,-120.43781140,93458,"Santa Maria",,,"124 Carmen Lane","Suite C","CA","(805) 925-7071","reception@crrsbc.org",
+596,34.43781950,-119.74532650,93105,"Santa Barbara",,,"36 Hitchcock Way",,"CA","(805) 687-7727",,
+597,34.91404420,-120.45858090,93455,"Santa Maria",,,"1303 Fairway Dr",,"CA","(805) 928-5624",,
+598,34.43966650,-119.81298390,93111,"Santa Barbara",,,"5399 Overpass Road",,"CA","(805) 964-4777",,
+599,34.94638680,-120.43069940,93454,"Santa Maria",,,"400 E Boone St",,"CA","(805) 541-2228",,"Starting Sunday June 28<&&> we will return to hourly service<&&> but with NO EXPRESS TRIPS. Face coverings are required. Fares are 50¢ regular and 25¢ discounted."
+600,34.43638650,-119.82994750,93117,"Goleta","Goleta Store",,"5960 Hollister Avenue",,"CA",,,
+601,34.43596690,-119.82121370,93117,"Goleta","Goleta 1",,"5624 Hollister Avenue",,"CA",,,
+602,34.43574960,-119.82984990,93117,"Goleta","Goleta 2",,"5949 Hollister Avenue",,"CA",,,
+603,34.43686940,-119.80363090,93111,"Santa Barbara",,,"5156 Hollister Avenue",,"CA",,,
+604,34.41824970,-119.70570360,93101,"Santa Barbara","Goodwill Santa Barbara",,"302 W. Carrillo Street",,"CA",,,
+605,34.40499020,-119.51489460,93013,"Carpinteria",,,"5048 El Carro Lane",,"CA",,,
+606,34.39759790,-119.52052270,93013,"Carpinteria",,,"771 Linden Avenue",,"CA",,,
+607,34.39537770,-119.51364080,93013,"Carpinteria","Carpinteria Store",,"5406 Carpinteria Avenue",,"CA",,,
+608,34.42853010,-119.68778830,93103,"Santa Barbara","Santa Barbara",,"700 N. Milpas Street",,"CA",,,
+609,34.94638680,-120.43069940,93454,"Santa Maria","Guadalupe Flyer","https://www.smoothinc.org/guadalupe-flyer.php","400 E Boone St",,"CA","(805) 922-8476",,"**Due to the Corona Virus** Effective April 13th<&&> 2020 & Until Further Notice** Guadalupe Flyer and ADA Service Schedule Mon – Sat: 8:45 a.m. to 6:35 p.m. Sunday: No Service PASSENGER FARES WILL NOT BE CHARGED Guadalupe Shuttle: No Service"
+610,34.92308760,-120.43563030,93454,"Santa Maria",,,"2050 S Broadway","#G","CA","(805) 922-4563",,
+611,34.95156820,-120.43175400,93454,"Santa Maria","Santa Maria Office",,"201 S. Miller Street",,"CA","(805) 922-9909",,
+612,34.95156820,-120.43175400,93454,"Santa Maria","Santa Maria Office",,"201 S. Miller Street",,"CA","(866) 901-3212",,
+615,34.95463720,-120.43074440,93454,"Santa Maria",,,"415 E. Chapel Street",,"CA","(888) 898-2806",,
+616,34.93328950,-120.43445780,93454,"Santa Maria",,,"210 E. Enos Dr. ","Unit C","CA","(805) 349-1212",,
+617,34.93599950,-120.43441280,93454,"Santa Maria",,,"1410 S. Broadway","Suite A","CA","(805) 614-1550",,
+618,34.94385460,-120.42142540,93454,"Santa Maria",,,"800 S. College Drive","Building S","CA","(805) 922-6966",,"Veteran Success Center--Room G101<&&> ex 3925"
+619,34.91809670,-120.45565580,93455,"Santa Maria",,,"2323 Thompson Way",,"CA","(855) 846-8376",,
+620,34.92169260,-120.42901150,93454,"Santa Maria",,,"2125 S. Centerpointe Parkway",,"CA","(805) 346-7135",,"Offers small<&&> short-term loans to adults without children  that need assistance with the most basic shelter and  personal needs.  MUST APPLY IN PERSON. "
+621,34.42512750,-119.69612110,93101,"Santa Barbara",,,"902 Laguna Street",,"CA","(805) 961-9200",,
+622,34.91545830,-120.43814860,93455,"Santa Maria",,,"2436 Professional Parkway",,"CA","(866) 331-2316",,
+623,34.92316920,-120.42833630,93455,"Santa Maria",,,"511 E. Lakeside Parkway ","#115","CA",,,"Cost is $21.50 plus a mail fee of $2. Contact your local  United Way for a fee waiver.  If born outside of the county contact State Vital Records  Office at 916-445-2684.  If born out of the state contact that State’s Vital Records  Office—www.cdc.gov/nchs/w2w.htm "
+624,34.41168060,-119.85593620,93117,"Isla Vista","People's Park",,"People's Park",,"CA",,,
+625,34.40061000,-119.72251470,93109,"Santa Barbara",,,"315 Meigs Road","Suite A #369","CA",,,
+626,34.89842340,-120.44305440,93455,"Santa Maria","YMCA Child Care",,"3400 Skyway Drive",,"CA","(805) 937-8521",,"Childcare is available with scholarships for those in  need. Scholarship application is available online or in  person. "
+627,34.45205960,-119.76981500,93110,"Santa Barbara",,,"4400 Cathedral Oaks Rd",,"CA","(805) 964-4711",,"Welcome to the Santa Barbara County Education Office (SBCEO) website.  We are pleased to serve 20 school districts with nearly 70<&&>000 students.  Browsing through our site<&&> you will find a glimpse of the truly amazing work occurring in classrooms with dynamic<&&> innovative and thoughtful teachers who are supported by visionary school and district leaders that care deeply for the success of all of our county’s students"
+628,34.42844470,-119.70543210,93101,"Santa Barbara",,,"1400 Santa Barbara Street",,"CA",,,
+629,34.93892090,-120.47524200,93458,"Santa Maria",,,"1687 W.  Stowell Road ",,"CA","(805) 964-4777","info@sbhumanesociety.org",
+631,34.97367470,-120.43400770,93454,"Santa Maria","Goodwill Santa Maria","http://gwvsb.org/","1844 N. Broadway",,"CA","(805) 287-9612",,
+632,34.95350080,-120.42779610,93454,"Santa Maria",,,"613 E. Main Street",,"CA",,,
+633,34.89864930,-120.44712750,93455,"Santa Maria",,,"3249 Terminal Drive","Suite 101","CA","(805) 928-1977",,
+634,34.95576800,-120.43544800,93454,"Santa Maria",,,"306 N. Broadway",,"CA","(805) 357-1214",,
+635,34.95349390,-120.44325100,93454,"Santa Maria","Thrifty Shopper","http://www.catholiccharities-sbc.org/locations","605 W Main St",,"CA","(805) 922-4174",,"Temporarily Closed due to covid"
+636,34.95343810,-120.43336060,93454,"Santa Maria",,,"215 W. Main St",,"CA","(805) 347-1233",,
+637,34.93305940,-120.43762870,93454,"Santa Maria","Goodwill Retail Store & Donation Center Santa Maria",,"1539 Stowell Center Plaza",,"CA","(805) 925-7091",,
+638,34.92844340,-120.43650570,93454,"Santa Maria","Santa Maria Thrift Store","https://achievementhouse.org/santa-maria-2/","1765 S. Broadway",,"CA",,,
+639,34.91620670,-120.43591270,93454,"Santa Maria","Broadway Pavillion","https://achievementhouse.org/","2414 S. Broadway ",,"CA","(805) 938-6203",,
+640,34.91457690,-120.43442700,93454,"Santa Maria",,,"2512 S. Broadway ",,"CA","(805) 922-9668",,
+641,34.59305220,-120.13964660,93463,"Solvang",,,"393 Alisal Road",,"CA",,,
+642,34.89842340,-120.44305440,93455,"Santa Maria",,,"3400 Skyway Drive",,"CA","(805) 937-8521",,
+643,34.44447640,-119.77873980,93110,"Santa Barbara","Santa Barbara Main Office",,"234 Camino Del Remedio",,"CA","(805) 681-4401",,
+644,34.64303090,-120.47140570,93436,"Lompoc","Lompoc Main Office",,"1100 W. Laurel Ave",,"CA","(805) 737-7080",,
+645,34.92169260,-120.42901150,93455,"Santa Maria","Santa Maria Main Office",,"2125 S. Centerpointe Pkwy",,"CA","(805) 346-7196",,
+646,34.41734600,-119.70399680,93101,"Santa Barbara","Santa Barbara Office",,"301 E Canon Perdido Street",,"CA","(805) 963-6754",,
+647,34.94571670,-120.43535860,93454,"Santa Maria","Santa Maria Office",,"120 E. Jones St.",,"CA","(805) 886-9136","julissa@sbimmigrantdefense.org",
+648,34.42168150,-119.68629340,93103,"Santa Barbara","Santa Barbara Office",,"601 E. Montecito St. ",,"CA","(805) 886-9136","julissa@sbimmigrantdefense.org",
+649,34.41285100,-119.70998600,93101,"Santa Barbara","Santa Barbara Office","https://www.immigranthope.org/location/santa-barbara-california/","935 San Andres Street",,"CA","(805) 963-0166","info.santabarbara@immigranthope.org","Immigrant Hope – Santa Barbara offers honest<&&> low-cost legal advice & services regarding the U.S. immigration processes in a safe and caring environment.  We have a staff of accredited representatives and volunteers that will meet with you to understand your situation. We will help you understand your options and<&&> if able<&&> carefully guide you through the process you are applying for.  Consultations cost $30; if we are able to take your case<&&> the cost of the consultation is applied to your case fee.  All case information is confidential.  Immigrant Hope-Santa Barbara is a 501(c)(3) non-profit organization and is Recognized by the Department of Justice (DOJ) to offer immigration legal services."
+650,34.95241200,-120.41118550,93454,"Santa Maria",,,"116 S Palisade","#104","CA","(805) 739-8710",,
+651,34.94962500,-120.43787850,93458,"Santa Maria",,,"200 W Cook Street",,"CA","(805) 451-3839",,
+652,34.96302690,-120.44374700,93458,"Santa Maria",,,"1000 N Railroad Street",,"CA","(805) 451-3839",,
+653,34.89621160,-120.43581270,93455,"Orcutt","Goodwill Retail Store & Donation Center Orcutt",,"3486 Orcutt Rd",,"CA","(805) 314-2624",,
+654,34.42111670,-119.71203910,93101,"Santa Barbara",,,"1409 Castillo St",,"CA",,,
+655,34.41752000,-119.69531000,93101,"Santa Barbara","The New Faulding Hotel","http://www.chcsb.com/housing.html","15 E Haley St",,"CA","(805) 963-9191",,
+656,34.41944170,-119.70348610,93101,"Santa Barbara","Hotel De Rivera",,"125 W Carillo St",,"CA",,,
+657,34.43859870,-119.73727650,93105,"Santa Barbara",,,"47 Broadmoor Plaza",,"CA",,,
+658,34.43083030,-119.70077080,93103,"Santa Barbara",,,"514 E Sola St",,"CA",,,
+659,34.41955460,-119.71352990,93101,"Santa Barbara",,,"520 W Sola St",,"CA",,,
+660,34.43522260,-119.72122010,93105,"Santa Barbara",,,"2483 State St",,"CA",,,
+661,34.41667960,-119.70362190,93101,"Santa Barbara",,,"821 Bath St",,"CA",,,
+662,34.41473840,-119.70902360,93101,"Santa Barbara",,,"933 San Pascual St",,"CA",,,
+663,34.92463670,-120.43832860,93458,"Santa Maria","Santa Maria Office",,"212 Carmen Lane"," Suite 201","CA","(805) 739-8706",,"-Transitional and emergency program for those with serious<&&> persistent mental illness<&&> making typical emergency housing environments challenging -Stay up to 30 days"
+664,34.40934120,-119.70298830,93101,"Santa Barbara",,,"625 Coronel Pl",,"CA",,,
+665,34.40932400,-119.70335040,93101,"Santa Barbara",,,"627 Coronel Pl",,"CA",,,
+666,34.43794620,-119.82698580,93117,"Goleta",,,"59 Nectarine Ave",,"CA",,,
+667,34.43778460,-119.82690230,93117,"Goleta",,,"65 Nectarine Ave",,"CA",,,
+668,34.40133800,-119.52321700,93013,"Carpinteria",,,"4667 Carpinteria Avenue",,"CA",,,
+669,34.92678950,-120.43470530,93454,"Santa Maria",,,"225 E Inger Drive","Suite 101 ","CA","(805) 928-0139",,
+670,34.95344370,-120.43815990,93458,"Santa Maria",,,"215 W Main Street",,"CA","(805) 347-1233",,
+671,34.41852500,-119.74201410,93105,"Santa Barbara",,,"1259 Veronica Springs Road",,"CA","(805) 687-9717",,
+672,34.39498690,-119.51172250,93013,"Carpinteria","Goodwill Retail Store & Donation Center Carpinteria",,"1024 Casitas Pass Road",,"CA","(805) 981-0130",,
+673,34.93009360,-120.43520050,93456,"Santa Maria","United Way Santa Maria",,"1660 S. Broadway","#101","CA","(805) 922-0329",,
+674,34.63720690,-120.46584840,93436,"Lompoc","Mark's House Lompoc",,"203 N. N St",,"CA","(805) 735-9980",,
+675,34.93970810,-120.41982870,93454,"Santa Maria",,,"1026 E Sierra Madre Ave",,"CA","(805) 922-1919",,
+676,34.43817660,-119.81951800,93117,"Goleta",,,"5575 Armitos Avenue ",,"CA",,,
+677,34.43720660,-119.82078410,93117,"Goleta","Villa la Esperanza",,"131 S Kellogg Ave",,"CA",,,
+678,34.43907010,-119.70490100,93103,"Santa Barbara",,,"2020 Allameda Padre Serra","Suite 211","CA","(805) 966-5100",,
+679,34.44011360,-119.75067090,93101,"Santa Barbara",,,"3891 State St",,"CA","(805) 246-9032",,
+680,34.63975370,-120.45302310,93436,"Lompoc",,,"119 N. D Street",,"CA",,,
+681,34.64753920,-120.45687080,93436,"Lompoc",,,"115 E. College Ave",,"CA","(805) 737-0015",,
+682,34.41900910,-119.70654760,93101,"Santa Barbara",,,"301 W. Figueroa St",,"CA","(805) 963-8775",,
+683,34.42334190,-119.70516060,93101,"Santa Barbara",,,"1209 State St",,"CA","(805) 965-4122",,
+684,34.95960790,-120.44192920,93458,"Santa Maria",,,"709 N. CURRYER ST.",,"CA","(805) 922-8445","info@sm4.org",
+685,34.42417670,-119.70835780,93101,"Santa Barbara",,,"1401 Chapala Street",,"CA","(805) 965-4122",,"Must complete a phone interview to determine eligibility. Referral from school or community organization required "
+686,34.96158570,-120.43596560,93454,"Santa Maria",,"http://www.childrensresourcenetwork.org/locations.htm","901 South Broadway",,"CA",,,"(Located at Santa Maria High School)"
+687,34.63682050,-120.46494890,93436,"Lompoc","Lompoc Teen's Closet",,"234 S N St",,"CA",,,
+688,34.95092010,-120.41318530,93454,"Santa Maria","Santa Maria Pediatric and Teens Closet",,"1400 E. Church Street",,"CA",,,"(These programs are only for patients and their families)"
+689,34.41335930,-119.84841080,93106,"Santa Barbara","UCSB<&&> Building 434",,"UCSB<&&> Building 434","Room 123","CA","(805) 893-4724","VeteransMilitaryServices@sa.ucsb.edu","Contact Cobly Dillard via Phone or Email"
+690,34.40607130,-119.69909240,93109,"Santa Barbara",,,"721 Cliff Drive","ECOC Building 1<&&> Room 7","CA","(805) 965-0581","ksrasmussen@pipeline.sbcc.edu","Contact Kyle Rasmussen<&&> extension 2203"
+691,34.42374500,-119.70130530,93101,"Santa Barbara","Department 12",,"118 E. Figueroa Street","Department 12","CA",,,"Open every other Friday. Call (805) 451-0430 for more details"
+692,34.63764900,-120.45317400,93436,"Lompoc","Department 1",,"115 Civic Center Plaza","Department 1","CA",,,
+693,34.94921020,-120.43229730,93454,"Santa Maria","Department 3",,"312-M E. Cook Street","Department 3","CA",,,
+694,34.95303370,-120.43571910,93454,"Santa Maria",,,"Santa Maria",,"CA","(805) 458-0368",,
+695,34.44415840,-119.78064790,93110,"Santa Barbara","Santa Barbara Veterans Service Office",,"315 Camino Del Remedio","Building 3<&&> Room 251","CA","(805) 681-4500","Jfletch@co.santa-barbara.ca.us","Contact Rep. Joseph Fletcher"
+696,34.63747810,-120.45381060,93436,"Lompoc","Lompoc Veterans Service Office",,"401 E. Cypress Avenue",,"CA","(805) 737-7900","Kgarris@co.santa-barbara.ca.us","Contact Rep. Kerrie Garrison"
+697,34.88243230,-120.44444960,93454,"Santa Maria","Santa Maria Veterans Service Office",,"624 Foster Road","Suite A","CA","(805) 346-7160","rmurphy@co.santa-barbara.ca.us","Contact Rep. Rhonda Murphy"
+698,34.93599950,-120.43441280,93454,"Santa Maria",,,"1410 S. Broadway",,"CA","(805) 614-6781",,"Contact Kay Wade"
+699,34.93216160,-120.43432840,93456,"Santa Maria",,,"PO Box 5654",,"CA","(805) 925-2372",,
+700,34.95865880,-120.44451850,93454,"Santa Maria",,,"720 E. El Camino Street",,"CA","(805) 478-6230",,"Program Administrator—Willie Galvan 805-714-6015"
+701,34.27938990,-119.28886670,93001,"Ventura","Ventura Veterans Center",,"790 E. Santa Clara Street",,"CA","(805) 585-1860",,
+702,35.26635840,-120.64259740,93401,"San Luis Obispo","San Luis Obispo Veterans Center",,"1070 Southwood Drive",,"CA",,,
+703,34.44327470,-119.77855770,93110,"Santa Barbara","Santa Barbara Clinic",,"4440 Calle Real",,"CA","(805) 683-1491",,
+704,34.95150460,-120.40965490,93454,"Santa Maria","Santa Maria Clinic",,"1550 E. Main Street",,"CA","(805) 354-6000",,
+705,34.30803100,-119.28369270,93001,"Ventura",,,"801 Seneca Street",,"CA","(805) 653-6434",,
+706,34.95174760,-120.44066900,93454,"Santa Maria",,,"400 W. Church Street",,"CA","(805) 623-8880",,
+707,34.41944130,-119.68991380,93101,"Santa Barbara","United Way Santa Barbara",," 320 E. Gutierrez Street",,"CA","(805) 922-0329",,
+708,34.93009360,-120.43520050,93454,"Santa Maria","United Way Santa Maria",,"1660 S. Broadway","#101","CA","(805) 922-0329",,
+709,34.42514060,-119.69756770,93101,"Santa Barbara",,,"324 E. Carrillo Street","Suite C","CA","(805) 963-7777 ext 115",,"Extension 176"
+710,34.92463670,-120.43832860,93458,"Santa Maria","North County Crisis Services",,"212 West Carmen Lane",,"CA","(888) 868-1649",,"To obtain support for someone experiencing a mental health crisis: There are three possibilities: (1) If the crisis places anyone in immediate danger<&&> call 911. (2) If the crisis does not involve immediate danger<&&> and if the person in crisis has insurance coverage through a health plan<&&> call the health plan to get a referral to a covered mental health provider. (3) For all others<&&> call ACCESS Line at 1(888) 868-1649. The call is toll-free<&&> and someone will answer to assist you 24 hours per day<&&> seven days a week."
+711,34.44415840,-119.78064790,93110,"Santa Barbara","South County Crisis Services",,"315 Camino Del Remedio","Suite B","CA","(888) 868-1649",,"To obtain support for someone experiencing a mental health crisis: There are three possibilities: (1) If the crisis places anyone in immediate danger<&&> call 911. (2) If the crisis does not involve immediate danger<&&> and if the person in crisis has insurance coverage through a health plan<&&> call the health plan to get a referral to a covered mental health provider. (3) For all others<&&> call ACCESS Line at 1(888) 868-1649. The call is toll-free<&&> and someone will answer to assist you 24 hours per day<&&> seven days a week."
+712,34.88067900,-120.44215430,93454,"Santa Maria",,,"500 West Foster Road",,"CA","(805) 934-6385",,
+713,34.44606770,-119.78076250,93110,"Santa Barbara",,,"429 N San Antonio Road",,"CA","(805) 884-1600",,
+714,34.63933280,-120.45369810,93436,"Lompoc",,,"401 East Ocean Avenue",,"CA","(805) 737-6600",,
+715,34.42624950,-119.69590390,93101,"Santa Barbara",,,"923 Olive Street","Suite 1","CA","(805) 962-3363",,
+716,34.42874840,-119.70832570,93101,"Santa Barbara",,,"111 E. Arrellaga Street",,"CA","(805) 965-2376",,
+717,34.41323880,-119.86287340,93117,"Isla Vista",,,"889 Camino Del Sur",,"CA","(805) 658-9170",,
+719,34.42578070,-119.70039780,93101,"Santa Barbara","Daniel Bryant Youth & Family Treatment Center","https://cadasb.org/youth/youth-treatment/","1111 Garden St",,"CA","(805) 730-7575",,"structured outpatient treatment for children ages 12-18<&&>  and their parents<&&> with alcohol and drug abuse issues. "
+720,34.42334820,-119.69725330,93101,"Santa Barbara","Mentor Program","https://cadasb.org/youth/mentor/","232 E. Canon Perdido St",,"CA","(805) 722-1321","mentorprogram@cadasb.org","The CADA Mentor Program is a school-based program for vulnerable 3rd-8th grade students who need academic<&&> emotional<&&> and/or social support. Students are matched with trained<&&> volunteer adult mentors and meet on campus 1 hour per week."
+721,34.42578070,-119.70039780,93101,"Santa Barbara","S.U.P.E.R. Program","https://cadasb.org/youth/super/","1111 Garden St ",,"CA","(805) 822-1316","super@cadasb.org","four-session series of meetings for  teens and their parents<&&> with the purpose of improving  communication and building the family relationship<&&> typically addressing issues of teen drug use and abuse. "
+722,34.42225460,-119.70786130,93101,"Santa Barbara",,,"1290 De La Vina Street",,"CA","(805) 770-7200",,
+724,34.41396510,-119.69594750,93101,"Santa Barbara","Santa Barbara (Administration)",,"123 West Gutierrez",,"CA","(805) 965-1001",,
+725,34.95358360,-120.43769850,93458,"Santa Maria","Santa Maria Youth & Family Center",,"105 N. Lincoln Street",,"CA","(805) 928-1707",,
+726,34.63862910,-120.45048040,93436,"Lompoc","Lompoc",,"101 South B Street",,"CA","(805) 735-4376",,
+727,34.64870810,-120.45689960,93436,"Lompoc","Dorothy Jackson Family Resource Center",,"646 North H Street",,"CA","(805) 743-4146",,
+728,34.93380880,-120.42722220,93454,"Santa Maria","Santa Maria Family Resource Center",,"648 E. Enos Dr",,"CA","(805) 928-4150",,
+729,34.39540270,-119.51832970,93013,"Carpinteria","Carpinteria",,"5201 8th St",,"CA","(805) 965-1001",,
+730,34.97334030,-120.57236180,93434,"Guadalupe","Little House By The Park",,"4681 11th Street",,"CA","(805) 343-1194",,
+731,34.91281300,-120.45292400,93455,"Santa Maria",,,"2560 Skyway Drive",,"CA","(805) 922-4573",,
+732,34.86598060,-120.43373760,93455,"Santa Maria","Delta High Schoold","http://www.deltahs.org/","4893 Bethany Drive",,"CA","(805) 937-6356",,
+733,34.88365370,-120.45222130,93455,"Santa Maria","Ernest Righetti High School","http://www.righetti.us/","941 E. Foster Road",,"CA","(805) 937-2051",,
+734,34.95692240,-120.40191150,93454,"Santa Maria","Pioneer Valley High School","http://www.pvhspanthers.org/","675 Panther Drive",,"CA","(805) 922-1305",,
+735,34.96158570,-120.43596560,93454,"Santa Maria","Santa Maria High School","http://www.santamariahighschool.org/","901 South Broadway",,"CA","(805) 925-2567",,
+736,34.42752300,-119.69278280,93013,"Santa Barbara",,,"632 East Canon Perdido Street",,"CA","(805) 962-2382",,
+737,34.94571670,-120.43535860,93454,"Santa Maria","Santa Maria Office",,"120 E. Jones Street","Suite 110","CA","(805) 922-1707","david@fundforsantabarbara.org",
+738,34.42357800,-119.70534940,93101,"Santa Barbara","Santa Barbara Office",,"1219 State Street",,"CA","(805) 962-9164","mvargas@fundforsantabarbara.org",
+739,34.41290150,-119.69892130,93101,"Santa Barbara","PathPoint Corporate Office",,"315 W. Haley Street","Suite 202","CA","(805) 966-3310",,
+740,34.91506720,-120.43814860,93455,"Santa Maria","North Santa Barbara County",,"2450 Professional Parkway",,"CA","(805) 934-3537",,
+741,34.42512750,-119.69612110,93101,"Santa Barbara","South Santa Barbara County",,"902 Laguna Street",,"CA","(805) 961-9200",,
+742,34.41290150,-119.69892130,93101,"Santa Barbara","Behavioral Health",,"315 W. Haley Street ","Suite 102","CA","(805) 963-1086",,
+743,34.41989620,-119.68912000,93101,"Santa Barbara",,,"320 Laguna Street",,"CA","(805) 564-5418",,
+744,34.42670640,-119.73505510,93105,"Santa Barbara","Santa Barbara Office",,"2253 Las Positas Road",,"CA","(805) 687-6065",,"No mail please."
+745,34.94571670,-120.43535860,93454,"Santa Maria","Santa Maria Office",,"120 E. Jones Street",,"CA","(805) 987-6065",,"By appointment only"
+746,34.40592050,-119.69732080,93101,"Santa Barbara",,,"309 S. Voluntario Learning Center",,"CA","(805) 897-1073",,
+747,34.42113650,-119.69588290,93101,"Santa Barbara","Alta Vista Alternative High School","https://alted.sbunified.org/","710 Santa Barbara St.",,"CA","(805) 966-0883",,
+748,34.43862170,-119.87693440,93117,"Goleta","Dos Pueblos High School","https://dphs.sbunified.org/","7266 Alameda Avenue ",,"CA","(805) 968-2541","bwoodard@sbunified.org",
+749,34.43906670,-119.78917160,93110,"Santa Barbara","San Marcos High School","https://sanmarcos.sbunified.org/","4750 Hollister Ave",,"CA","(805) 966-0883","kglazer@sbunified.org",
+750,34.42946700,-119.69754700,93103,"Santa Barbara","Santa Barbara High School","https://sbhs.sbunified.org/","700 East Anapamu St",,"CA","(805) 966-9101","esimmons@sbunified.org",
+751,34.41938000,-119.69342000,93101,"Santa Barbara","Santa Barbara Region",,"126 E. Haley St","Suite A17","CA","(805) 642-6208",,
+752,34.95232540,-120.43715840,93458,"Santa Maria","Santa Maria Region",,"110 S. Lincoln St","Suite 207","CA","(805) 925-1010",,
+753,34.42133830,-119.70771740,93101,"Santa Barbara",,,"1215 De La Vina Street",,"CA","(805) 962-3344","sbteenlegalclinic@gmail.com",
+754,34.42212060,-119.70326720,93101,"Santa Barbara",,,"7 West Figueroa",,"CA","(805) 242-2502",,"Remote Learning for Santa Barbara/Lompoc/Santa Maria"
+755,,,93110,"Santa Barbara","Every Women Counts","https://www.dhcs.ca.gov/services/cancer/EWC","345 Camino del Remedio","Rm 339","CA","(805) 681-4783",,"primarily serves low income women without health coverage to obtain free breast and cervical cancer screenings and health education (virtual) across the state.  Our office serves the Tri-Counties."
+756,,,93458,"Santa Maria","Main Office",,"117 S. Benwiley Avenue",,"CA","(805) 332-3439","amy.adargo@djscss.org",
+757,,,93454,"Santa Maria",,,"1302 N. Miller Street",,"CA",,,"Please contact our main office for more info"
+758,,,93454,"Santa Maria",,,"515 N. Palisade Drive",,"CA",,,"Please contact our main office for more info"
+759,,,93458,"Santa Maria",,,"919 N. Walnut Drive",,"CA",,,"Please contact our Main Office for more info"
+760,,,93458,"Santa Maria",,,"115 S. Benwiley Avenue",,"CA",,,"Please contact our main office for more info"
+761,,,93101,"Santa Barbara","code for santa barbara",,"123","345","ca","(805) 987-8594","vsauceda@codeforamerica.org","something"
+765,,,,"Santa Barbara",,,,,"CA",,,
+766,34.43547800,-119.80915100,93111,"Santa Barbara",,"https://freedom4youth.org","187 S Patterson Ave",,"CA","(805) 708-1292","INFO@FREEDOM4YOUTH.ORG",
