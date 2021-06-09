@@ -6,19 +6,19 @@ USE thrive;
 CREATE TABLE organizations
 (
     relation_id INT PRIMARY KEY,
-    name_english VARCHAR(MAX),
-    name_spanish VARCHAR(MAX),
-    website VARCHAR(MAX),
-    languages_spoken_english VARCHAR(MAX),
-    languages_spoken_spanish VARCHAR(MAX),
-    customers_served_english VARCHAR(MAX),
-    customers_served_spanish VARCHAR(MAX),
-    notes_english VARCHAR(MAX),
-    notes_spanish VARCHAR(MAX),
-    categories_english VARCHAR(MAX),
-    categories_spanish VARCHAR(MAX),
-    tags_english VARCHAR(MAX),
-    tags_spanish VARCHAR(MAX)
+    name_english NVARCHAR(MAX),
+    name_spanish NVARCHAR(MAX),
+    website NVARCHAR(MAX),
+    languages_spoken_english NVARCHAR(MAX),
+    languages_spoken_spanish NVARCHAR(MAX),
+    customers_served_english NVARCHAR(MAX),
+    customers_served_spanish NVARCHAR(MAX),
+    notes_english NVARCHAR(MAX),
+    notes_spanish NVARCHAR(MAX),
+    categories_english NVARCHAR(MAX),
+    categories_spanish NVARCHAR(MAX),
+    tags_english NVARCHAR(MAX),
+    tags_spanish NVARCHAR(MAX)
 );
 
 CREATE TABLE locations
@@ -27,31 +27,31 @@ CREATE TABLE locations
     latitude FLOAT(10),
     longitude FLOAT(10),
     zip INT,
-    city VARCHAR(MAX),
-    name VARCHAR(MAX),
-    website VARCHAR(MAX),
-    address VARCHAR(MAX),
-    address_2 VARCHAR(MAX),
-    state VARCHAR(MAX),
-    phone VARCHAR(MAX),
-    email VARCHAR(MAX),
-    notes VARCHAR(MAX)
+    city NVARCHAR(MAX),
+    name NVARCHAR(MAX),
+    website NVARCHAR(MAX),
+    address NVARCHAR(MAX),
+    address_2 NVARCHAR(MAX),
+    state NVARCHAR(MAX),
+    phone NVARCHAR(MAX),
+    email NVARCHAR(MAX),
+    notes NVARCHAR(MAX)
 );
 
 CREATE TABLE services
 (
     relation_id INT PRIMARY KEY,
-    name_english VARCHAR(MAX),
-    name_spanish VARCHAR(MAX)
+    name_english NVARCHAR(MAX),
+    name_spanish NVARCHAR(MAX),
 );
 
 CREATE TABLE schedules
 (
     relation_id INT PRIMARY KEY,
-    open_time VARCHAR(MAX),
-    close_time VARCHAR(MAX),
-    days VARCHAR(MAX),
-    notes VARCHAR(MAX)
+    open_time NVARCHAR(MAX),
+    close_time NVARCHAR(MAX),
+    days NVARCHAR(MAX),
+    notes NVARCHAR(MAX)
 );
 
 CREATE TABLE locations_organizations
