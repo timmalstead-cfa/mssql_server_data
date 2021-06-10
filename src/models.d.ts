@@ -17,8 +17,6 @@ export interface OrganizationModel extends Model {
   tags_spanish: string
 }
 
-export type Organization = ModelCtor<OrganizationModel>
-
 export interface LocationsModel extends Model {
   id: number
   latitude: number
@@ -35,15 +33,11 @@ export interface LocationsModel extends Model {
   notes: string
 }
 
-export type Location = ModelCtor<LocationsModel>
-
 export interface ServiceModel extends Model {
   id: number
   name_english: string
   name_spanish: string
 }
-
-export type Service = ModelCtor<ServiceModel>
 
 export interface SchedulesModel extends Model {
   id: number
@@ -53,42 +47,40 @@ export interface SchedulesModel extends Model {
   notes: string
 }
 
-export type Schedule = ModelCtor<SchedulesModel>
-
 export interface LocationsOrganizationsModel extends Model {
   locations_id: number
   organizations_id: number
 }
-
-export type LocationOrganization = ModelCtor<LocationsOrganizationsModel>
 
 export interface SchedulesLocationsModel extends Model {
   schedules_id: number
   locations_id: number
 }
 
-export type ScheduleLocation = ModelCtor<SchedulesLocationsModel>
-
-export interface SchedulesOrganizations extends Model {
+export interface SchedulesOrganizationsModel extends Model {
   schedules_id: number
   organizations_id: number
 }
 
-export type ScheduleOrganization = ModelCtor<SchedulesOrganizations>
-
-export interface ServicesLocations extends Model {
+export interface ServicesLocationsModel extends Model {
   services_id: number
   locations_id: number
 }
 
-export type ServiceLocation = ModelCtor<ServicesLocations>
-
-export interface ServicesOrganizations extends Model {
+export interface ServicesOrganizationsModel extends Model {
   services_id: number
   organizations_id: number
 }
 
-export type ServiceOrganization = ModelCtor<ServicesOrganizations>
+export type Organization = ModelCtor<OrganizationModel>
+export type Location = ModelCtor<LocationsModel>
+export type Service = ModelCtor<ServiceModel>
+export type Schedule = ModelCtor<SchedulesModel>
+export type LocationOrganization = ModelCtor<LocationsOrganizationsModel>
+export type ScheduleLocation = ModelCtor<SchedulesLocationsModel>
+export type ScheduleOrganization = ModelCtor<SchedulesOrganizationsModel>
+export type ServiceLocation = ModelCtor<ServicesLocationsModel>
+export type ServiceOrganization = ModelCtor<ServicesOrganizationsModel>
 
 export type AllModels = [
   Organization,

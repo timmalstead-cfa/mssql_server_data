@@ -14,7 +14,7 @@ Clone the repo and download [Docker Desktop](https://www.docker.com/products/doc
 
 Once Docker is installed, input the following in your CLI:
 
-`sudo docker run -v **ABSOLUTE_PATH_TO_MSSQL_SERVER_DATA_FOLDER**/mssql_server_data/data:/mnt/mssql_server_data/data -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Dev_Ms_SQL_Server_2019" -p 1433:1433 --name SQL_SERVER_2019 mcr.microsoft.com/mssql/server:2019-latest`
+`sudo docker run -d -v **ABSOLUTE_PATH_TO_MSSQL_SERVER_DATA_FOLDER**/mssql_server_data/data:/mnt/mssql_server_data/data -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Dev_Ms_SQL_Server_2019" -p 1433:1433 --name SQL_SERVER_2019 mcr.microsoft.com/mssql/server:2019-latest`
 
 replacing `**ABSOLUTE_PATH_TO_MSSQL_SERVER_DATA_FOLDER**` with the absolute path in your system leading to the cloned repo. This will map that directory to `/mnt/mssql_server_data/data` and allow you to access the contents of that folder from inside the Docker container.
 
