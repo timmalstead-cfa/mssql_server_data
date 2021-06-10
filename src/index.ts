@@ -1,4 +1,5 @@
 import express, { Application } from "express"
+import { Op } from "sequelize"
 
 import dbSetup from "./dbSetup"
 import {
@@ -25,9 +26,37 @@ let org: Organization,
 
 const server: Application = express()
 
-server.get("/", async (req, res): Promise<void> => {
-  const allResults = await servOrg.findAll()
-  res.json(allResults)
+// TODO: add checks for category and language parameters. I don't think that there's too much danger for injection, but why risk it?
+server.get("/getbycategory", async (req, res): Promise<void> => {
+  const { category, language } = req.query
+
+  const returnedOrgs = await org.findAll({
+    where: { [`categories_${language}`]: { [Op.like]: `%${category}%` } },
+    attributes: [
+      "id",
+      "categories_english",
+      "categories_spanish",
+      `name_${language}`,
+      `tags_${language}`,
+    ],
+    include: [
+      {
+        model: loc,
+        attributes: ["latitude", "longitude", "city"],
+        through: { attributes: ["locations_id", "organizations_id"] },
+        include: [
+          {
+            model: serv,
+            attributes: [`name_${language}`],
+            through: { attributes: ["services_id", "locations_id"] },
+          },
+        ],
+      },
+    ],
+    order: [[`name_${language}`, "ASC"]],
+  })
+
+  res.json(returnedOrgs)
 })
 
 server.listen(8000, (): void => {

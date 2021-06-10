@@ -85,6 +85,22 @@ const dbSetup = () => {
             organizations_id: { type: INTEGER },
         }, opt);
         [locOrgObj, schLocObj, schOrgObj, servLocObj, servOrgObj].forEach((model) => model.removeAttribute("id"));
+        orgObj.belongsToMany(locObj, {
+            through: "locations_organizations",
+            foreignKey: "organizations_id",
+        });
+        locObj.belongsToMany(orgObj, {
+            through: "locations_organizations",
+            foreignKey: "locations_id",
+        });
+        locObj.belongsToMany(servObj, {
+            through: "services_locations",
+            foreignKey: "locations_id",
+        });
+        servObj.belongsToMany(locObj, {
+            through: "services_locations",
+            foreignKey: "services_id",
+        });
         sql
             .sync({ force: false })
             .then(() => console.log("Database models created"));
