@@ -107,19 +107,10 @@ const dbSetup = (): AllModels => {
       opt
     )
 
-    const schLocObj: ScheduleLocation = sql.define(
-      "schedules_locations",
+    const servOrgObj: ServiceOrganization = sql.define(
+      "services_organizations",
       {
-        schedules_id: { type: INTEGER },
-        locations_id: { type: INTEGER },
-      },
-      opt
-    )
-
-    const schOrgObj: ScheduleOrganization = sql.define(
-      "schedules_organizations",
-      {
-        schedules_id: { type: INTEGER },
+        services_id: { type: INTEGER },
         organizations_id: { type: INTEGER },
       },
       opt
@@ -134,11 +125,20 @@ const dbSetup = (): AllModels => {
       opt
     )
 
-    const servOrgObj: ServiceOrganization = sql.define(
-      "services_organizations",
+    const schOrgObj: ScheduleOrganization = sql.define(
+      "schedules_organizations",
       {
-        services_id: { type: INTEGER },
+        schedules_id: { type: INTEGER },
         organizations_id: { type: INTEGER },
+      },
+      opt
+    )
+
+    const schLocObj: ScheduleLocation = sql.define(
+      "schedules_locations",
+      {
+        schedules_id: { type: INTEGER },
+        locations_id: { type: INTEGER },
       },
       opt
     )
@@ -152,6 +152,16 @@ const dbSetup = (): AllModels => {
       foreignKey: "organizations_id",
     })
 
+    orgObj.belongsToMany(servObj, {
+      through: "services_organizations",
+      foreignKey: "organizations_id",
+    })
+
+    orgObj.belongsToMany(schObj, {
+      through: "schedules_organizations",
+      foreignKey: "organizations_id",
+    })
+
     locObj.belongsToMany(orgObj, {
       through: "locations_organizations",
       foreignKey: "locations_id",
@@ -162,9 +172,29 @@ const dbSetup = (): AllModels => {
       foreignKey: "locations_id",
     })
 
+    locObj.belongsToMany(schObj, {
+      through: "schedules_locations",
+      foreignKey: "locations_id",
+    })
+
+    servObj.belongsToMany(orgObj, {
+      through: "services_organizations",
+      foreignKey: "services_id",
+    })
+
     servObj.belongsToMany(locObj, {
       through: "services_locations",
       foreignKey: "services_id",
+    })
+
+    schObj.belongsToMany(orgObj, {
+      through: "schedules_organizations",
+      foreignKey: "schedules_id",
+    })
+
+    schObj.belongsToMany(locObj, {
+      through: "schedules_locations",
+      foreignKey: "schedules_id",
     })
 
     sql
