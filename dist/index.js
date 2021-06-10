@@ -13,12 +13,39 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
+const sequelize_1 = require("sequelize");
 const dbSetup_1 = __importDefault(require("./dbSetup"));
 let org, loc, serv, sch, locOrg, schLoc, schOrg, servLoc, servOrg;
 const server = express_1.default();
-server.get("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const allResults = yield servOrg.findAll();
-    res.json(allResults);
+// TODO: add checks for category and language parameters. I don't think that there's too much danger for injection, but why risk it?
+server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const { category, language } = req.query;
+    const returnedOrgs = yield org.findAll({
+        where: { [`categories_${language}`]: { [sequelize_1.Op.like]: `%${category}%` } },
+        attributes: [
+            "id",
+            "categories_english",
+            "categories_spanish",
+            `name_${language}`,
+            `tags_${language}`,
+        ],
+        include: [
+            {
+                model: loc,
+                attributes: ["latitude", "longitude", "city"],
+                through: { attributes: ["locations_id", "organizations_id"] },
+                include: [
+                    {
+                        model: serv,
+                        attributes: [`name_${language}`],
+                        through: { attributes: ["services_id", "locations_id"] },
+                    },
+                ],
+            },
+        ],
+        order: [[`name_${language}`, "ASC"]],
+    });
+    res.json(returnedOrgs);
 }));
 server.listen(8000, () => {
     console.log(`Express server up and running`);

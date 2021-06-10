@@ -68,23 +68,63 @@ const dbSetup = () => {
             locations_id: { type: INTEGER },
             organizations_id: { type: INTEGER },
         }, opt);
-        const schLocObj = sql.define("schedules_locations", {
-            schedules_id: { type: INTEGER },
-            locations_id: { type: INTEGER },
-        }, opt);
-        const schOrgObj = sql.define("schedules_organizations", {
-            schedules_id: { type: INTEGER },
+        const servOrgObj = sql.define("services_organizations", {
+            services_id: { type: INTEGER },
             organizations_id: { type: INTEGER },
         }, opt);
         const servLocObj = sql.define("services_locations", {
             services_id: { type: INTEGER },
             locations_id: { type: INTEGER },
         }, opt);
-        const servOrgObj = sql.define("services_organizations", {
-            services_id: { type: INTEGER },
+        const schOrgObj = sql.define("schedules_organizations", {
+            schedules_id: { type: INTEGER },
             organizations_id: { type: INTEGER },
         }, opt);
+        const schLocObj = sql.define("schedules_locations", {
+            schedules_id: { type: INTEGER },
+            locations_id: { type: INTEGER },
+        }, opt);
         [locOrgObj, schLocObj, schOrgObj, servLocObj, servOrgObj].forEach((model) => model.removeAttribute("id"));
+        orgObj.belongsToMany(locObj, {
+            through: "locations_organizations",
+            foreignKey: "organizations_id",
+        });
+        orgObj.belongsToMany(servObj, {
+            through: "locations_organizations",
+            foreignKey: "organizations_id",
+        });
+        orgObj.belongsToMany(schObj, {
+            through: "locations_organizations",
+            foreignKey: "organizations_id",
+        });
+        locObj.belongsToMany(orgObj, {
+            through: "locations_organizations",
+            foreignKey: "locations_id",
+        });
+        locObj.belongsToMany(servObj, {
+            through: "services_locations",
+            foreignKey: "locations_id",
+        });
+        locObj.belongsToMany(schObj, {
+            through: "services_locations",
+            foreignKey: "locations_id",
+        });
+        servObj.belongsToMany(orgObj, {
+            through: "services_locations",
+            foreignKey: "services_id",
+        });
+        servObj.belongsToMany(locObj, {
+            through: "services_locations",
+            foreignKey: "services_id",
+        });
+        schObj.belongsToMany(orgObj, {
+            through: "services_locations",
+            foreignKey: "schedules_id",
+        });
+        schObj.belongsToMany(locObj, {
+            through: "services_locations",
+            foreignKey: "schedules_id",
+        });
         sql
             .sync({ force: false })
             .then(() => console.log("Database models created"));
