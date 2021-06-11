@@ -90,11 +90,11 @@ const dbSetup = () => {
             foreignKey: "organizations_id",
         });
         orgObj.belongsToMany(servObj, {
-            through: "locations_organizations",
+            through: "services_organizations",
             foreignKey: "organizations_id",
         });
         orgObj.belongsToMany(schObj, {
-            through: "locations_organizations",
+            through: "schedules_organizations",
             foreignKey: "organizations_id",
         });
         locObj.belongsToMany(orgObj, {
@@ -106,11 +106,11 @@ const dbSetup = () => {
             foreignKey: "locations_id",
         });
         locObj.belongsToMany(schObj, {
-            through: "services_locations",
+            through: "schedules_locations",
             foreignKey: "locations_id",
         });
         servObj.belongsToMany(orgObj, {
-            through: "services_locations",
+            through: "services_organizations",
             foreignKey: "services_id",
         });
         servObj.belongsToMany(locObj, {
@@ -118,27 +118,17 @@ const dbSetup = () => {
             foreignKey: "services_id",
         });
         schObj.belongsToMany(orgObj, {
-            through: "services_locations",
+            through: "schedules_organizations",
             foreignKey: "schedules_id",
         });
         schObj.belongsToMany(locObj, {
-            through: "services_locations",
+            through: "schedules_locations",
             foreignKey: "schedules_id",
         });
         sql
             .sync({ force: false })
             .then(() => console.log("Database models created"));
-        return [
-            orgObj,
-            locObj,
-            servObj,
-            schObj,
-            locOrgObj,
-            schLocObj,
-            schOrgObj,
-            servLocObj,
-            servOrgObj,
-        ];
+        return [orgObj, locObj, servObj, schObj];
     }
     catch (err) {
         console.error(`Error setting up database: ${err}`);

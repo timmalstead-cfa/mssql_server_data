@@ -81,15 +81,3 @@ export type ScheduleLocation = ModelCtor<SchedulesLocationsModel>
 export type ScheduleOrganization = ModelCtor<SchedulesOrganizationsModel>
 export type ServiceLocation = ModelCtor<ServicesLocationsModel>
 export type ServiceOrganization = ModelCtor<ServicesOrganizationsModel>
-
-export type AllModels = [
-  Organization,
-  Location,
-  Service,
-  Schedule,
-  LocationOrganization,
-  ScheduleLocation,
-  ScheduleOrganization,
-  ServiceLocation,
-  ServiceOrganization
-]

@@ -9,13 +9,12 @@ import {
   ScheduleOrganization,
   ServiceLocation,
   ServiceOrganization,
-  AllModels,
 } from "./models"
 
 const { TEXT, INTEGER, FLOAT } = DataTypes
 const opt: ModelOptions = { timestamps: false }
 
-const dbSetup = (): AllModels => {
+const dbSetup = (): [Organization, Location, Service, Schedule] => {
   try {
     const sql = new Sequelize({
       dialect: "mssql",
@@ -201,17 +200,7 @@ const dbSetup = (): AllModels => {
       .sync({ force: false })
       .then(() => console.log("Database models created"))
 
-    return [
-      orgObj,
-      locObj,
-      servObj,
-      schObj,
-      locOrgObj,
-      schLocObj,
-      schOrgObj,
-      servLocObj,
-      servOrgObj,
-    ]
+    return [orgObj, locObj, servObj, schObj]
   } catch (err) {
     console.error(`Error setting up database: ${err}`)
   }

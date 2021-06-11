@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const sequelize_1 = require("sequelize");
 const dbSetup_1 = __importDefault(require("./dbSetup"));
-let org, loc, serv, sch, locOrg, schLoc, schOrg, servLoc, servOrg;
+let org, loc, serv, sch;
 const server = express_1.default();
 // TODO: add checks for category and language parameters. I don't think that there's too much danger for injection, but why risk it?
 server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -33,12 +33,12 @@ server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, fun
             {
                 model: loc,
                 attributes: ["latitude", "longitude", "city"],
-                through: { attributes: ["locations_id", "organizations_id"] },
+                through: { attributes: [] },
                 include: [
                     {
                         model: serv,
                         attributes: [`name_${language}`],
-                        through: { attributes: ["services_id", "locations_id"] },
+                        through: { attributes: [] },
                     },
                 ],
             },
@@ -47,17 +47,69 @@ server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, fun
     });
     res.json(returnedOrgs);
 }));
+server.get("/getsinglerecord", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const { id } = req.query;
+    const returnedOrg = yield org.findOne({
+        where: { id },
+        include: [
+            {
+                model: loc,
+                through: { attributes: [] },
+                include: [
+                    {
+                        model: serv,
+                        through: { attributes: [] },
+                    },
+                    {
+                        model: sch,
+                        through: { attributes: [] },
+                    },
+                ],
+            },
+        ],
+    });
+    res.json(returnedOrg);
+}));
+// `${BASE_URL}/organization?filterByFormula=SEARCH(%22${searchQuery}%22%2Corg_tags${append})&fields%5B%5D=org_name${append}&fields%5B%5D=org_tags${append}&fields%5B%5D=org_categories&&fields%5B%5D=org_categories_spanish&fields%5B%5D=location_latitude&fields%5B%5D=location_longitude&maxRecords=50&sort%5B0%5D%5Bfield%5D=org_name${append}&fields%5B%5D=locations_city`
+// search by query is included in tags
+//return:
+// id
+// org categories english
+// org categories spanish
+// org name language
+// org tags language
+// loc latitude
+// loc longitude
+// loc city
+// order by orn name language
+server.get("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const { query, language } = req.query;
+    const returnedOrgs = yield org.findAll({
+        where: { [`tags_${language}`]: { [sequelize_1.Op.like]: `%${query}%` } },
+        attributes: [
+            "id",
+            "categories_english",
+            "categories_spanish",
+            `name_${language}`,
+            `tags_${language}`,
+        ],
+        include: [
+            {
+                model: loc,
+                attributes: ["latitude", "longitude", "city"],
+                through: { attributes: [] },
+            },
+        ],
+        order: [[`name_${language}`, "ASC"]],
+    });
+    res.json(returnedOrgs);
+}));
 server.listen(8000, () => {
     console.log(`Express server up and running`);
-    const [orgObj, locObj, servObj, schObj, locOrgObj, schLocObj, schOrgObj, servLocObj, servOrgObj,] = dbSetup_1.default();
+    const [orgObj, locObj, servObj, schObj] = dbSetup_1.default();
     org = orgObj;
     loc = locObj;
     serv = servObj;
     sch = schObj;
-    locOrg = locOrgObj;
-    schLoc = schLocObj;
-    schOrg = schOrgObj;
-    servLoc = servLocObj;
-    servOrg = servOrgObj;
 });
 //# sourceMappingURL=index.js.map
