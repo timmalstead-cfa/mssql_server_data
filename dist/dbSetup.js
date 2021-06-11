@@ -128,7 +128,7 @@ const dbSetup = () => {
         sql
             .sync({ force: false })
             .then(() => console.log("Database models created"));
-        return [orgObj, locObj, servObj, schObj];
+        return { orgObj, locObj, servObj, schObj };
     }
     catch (err) {
         console.error(`Error setting up database: ${err}`);

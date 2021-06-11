@@ -84,3 +84,10 @@ export type ScheduleLocation = ModelCtor<SchedulesLocationsModel>
 export type ScheduleOrganization = ModelCtor<SchedulesOrganizationsModel>
 export type ServiceLocation = ModelCtor<ServicesLocationsModel>
 export type ServiceOrganization = ModelCtor<ServicesOrganizationsModel>
+
+export interface AllModels {
+  orgObj: Organization
+  locObj: Location
+  servObj: Service
+  schObj: Schedule
+}

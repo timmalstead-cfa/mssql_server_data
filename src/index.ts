@@ -2,35 +2,34 @@ import express, { Application } from "express"
 import { Op } from "sequelize"
 
 import dbSetup from "./dbSetup"
-import { Organization, Location, Service, Schedule } from "./models"
-
-let org: Organization, loc: Location, serv: Service, sch: Schedule
+import { AllModels } from "./models"
 
 const server: Application = express()
+let models: AllModels
 
 // TODO: add checks for route parameters. I don't think that there's too much danger for injection, but why risk it?
 server.get("/getbycategory", async (req, res): Promise<void> => {
   try {
+    const { orgObj, locObj, servObj } = models
     const { category, language } = req.query
 
-    const returnedOrgs = await org.findAll({
+    const returnedOrgs = await orgObj.findAll({
       where: { [`categories_${language}`]: { [Op.like]: `%${category}%` } },
       attributes: [
         "id",
-        "categories_english",
-        "categories_spanish",
+        `categories_${language}`,
         `name_${language}`,
         `tags_${language}`,
       ],
       include: [
         {
-          model: loc,
+          model: locObj,
           required: false,
           attributes: ["latitude", "longitude", "city"],
           through: { attributes: [] },
           include: [
             {
-              model: serv,
+              model: servObj,
               required: false,
               attributes: [`name_${language}`],
               through: { attributes: [] },
@@ -44,13 +43,15 @@ server.get("/getbycategory", async (req, res): Promise<void> => {
     res.json(returnedOrgs)
   } catch (error) {
     console.error(error)
+    res.json(error)
   }
 })
 
 server.get("/getsinglerecord", async (req, res): Promise<void> => {
+  const { orgObj, locObj, servObj, schObj } = models
   const { id, language } = req.query
 
-  const returnedOrg = await org.findOne({
+  const returnedOrg = await orgObj.findOne({
     where: { id },
     attributes: [
       "id",
@@ -63,18 +64,18 @@ server.get("/getsinglerecord", async (req, res): Promise<void> => {
     ],
     include: [
       {
-        model: loc,
+        model: locObj,
         required: false,
         through: { attributes: [] },
         include: [
           {
-            model: serv,
+            model: servObj,
             required: false,
             attributes: ["id", `name_${language}`],
             through: { attributes: [] },
           },
           {
-            model: sch,
+            model: schObj,
             required: false,
             through: { attributes: [] },
           },
@@ -87,9 +88,10 @@ server.get("/getsinglerecord", async (req, res): Promise<void> => {
 })
 
 server.get("/searchbykeyword", async (req, res): Promise<void> => {
+  const { orgObj, locObj } = models
   const { query, language } = req.query
 
-  const returnedOrgs = await org.findAll({
+  const returnedOrgs = await orgObj.findAll({
     where: { [`tags_${language}`]: { [Op.like]: `%${query}%` } },
     attributes: [
       "id",
@@ -99,7 +101,7 @@ server.get("/searchbykeyword", async (req, res): Promise<void> => {
     ],
     include: [
       {
-        model: loc,
+        model: locObj,
         attributes: ["latitude", "longitude", "city"],
         through: { attributes: [] },
       },
@@ -112,9 +114,5 @@ server.get("/searchbykeyword", async (req, res): Promise<void> => {
 
 server.listen(8000, (): void => {
   console.log(`Express server up and running`)
-  const [orgObj, locObj, servObj, schObj] = dbSetup()
-  org = orgObj
-  loc = locObj
-  serv = servObj
-  sch = schObj
+  models = dbSetup()
 })
