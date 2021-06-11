@@ -111,9 +111,12 @@ server.get("/searchbykeyword", async (req, res): Promise<void> => {
 
     if (languages.has(language as string)) {
       const { orgObj, locObj } = models
+      const finalQuery = String(query).trim().toLowerCase()
 
       const returnedOrgs = await orgObj.findAll({
-        where: { [`tags_${language}`]: { [Op.like]: `%${query}%` } },
+        where: {
+          [`tags_${language}`]: { [Op.like]: `%${finalQuery}%` },
+        },
         attributes: [
           "id",
           `categories_${language}`,
