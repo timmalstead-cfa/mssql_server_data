@@ -15,6 +15,7 @@ export interface OrganizationModel extends Model {
   categories_spanish: string
   tags_english: string
   tags_spanish: string
+  locations?: LocationsModel[]
 }
 
 export interface LocationsModel extends Model {
@@ -31,6 +32,8 @@ export interface LocationsModel extends Model {
   phone: string
   email: string
   notes: string
+  services?: ServiceModel[]
+  schedules?: SchedulesModel[]
 }
 
 export interface ServiceModel extends Model {
@@ -82,14 +85,9 @@ export type ScheduleOrganization = ModelCtor<SchedulesOrganizationsModel>
 export type ServiceLocation = ModelCtor<ServicesLocationsModel>
 export type ServiceOrganization = ModelCtor<ServicesOrganizationsModel>
 
-export type AllModels = [
-  Organization,
-  Location,
-  Service,
-  Schedule,
-  LocationOrganization,
-  ScheduleLocation,
-  ScheduleOrganization,
-  ServiceLocation,
-  ServiceOrganization
-]
+export interface AllModels {
+  orgObj: Organization
+  locObj: Location
+  servObj: Service
+  schObj: Schedule
+}
