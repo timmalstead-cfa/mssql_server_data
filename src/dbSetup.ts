@@ -9,6 +9,7 @@ import {
   ScheduleOrganization,
   ServiceLocation,
   ServiceOrganization,
+  IsThisUseful,
   AllModels,
 } from "./models"
 
@@ -94,6 +95,24 @@ const dbSetup = (): AllModels => {
         close_time: { type: TEXT },
         days: { type: TEXT },
         notes: { type: TEXT },
+      },
+      opt
+    )
+
+    const useObj: IsThisUseful = sql.define(
+      "is_this_usefuls",
+      {
+        // id: {
+        //   type: INTEGER,
+        //   primaryKey: true,
+        // },
+        created_at: {
+          type: "SMALLDATETIME",
+        },
+        is_useful: { type: "BIT" },
+        route: { type: TEXT },
+        language: { type: TEXT },
+        comment: { type: TEXT },
       },
       opt
     )
@@ -201,7 +220,7 @@ const dbSetup = (): AllModels => {
       .sync({ force: false })
       .then(() => console.log("Database models created"))
 
-    return { orgObj, locObj, servObj, schObj }
+    return { orgObj, locObj, servObj, schObj, useObj }
   } catch (err) {
     console.error(`Error setting up database: ${err}`)
   }

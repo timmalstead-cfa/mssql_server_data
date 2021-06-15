@@ -64,6 +64,19 @@ const dbSetup = () => {
             days: { type: TEXT },
             notes: { type: TEXT },
         }, opt);
+        const useObj = sql.define("is_this_usefuls", {
+            // id: {
+            //   type: INTEGER,
+            //   primaryKey: true,
+            // },
+            created_at: {
+                type: "SMALLDATETIME",
+            },
+            is_useful: { type: "BIT" },
+            route: { type: TEXT },
+            language: { type: TEXT },
+            comment: { type: TEXT },
+        }, opt);
         const locOrgObj = sql.define("locations_organizations", {
             locations_id: { type: INTEGER },
             organizations_id: { type: INTEGER },
@@ -128,7 +141,7 @@ const dbSetup = () => {
         sql
             .sync({ force: false })
             .then(() => console.log("Database models created"));
-        return { orgObj, locObj, servObj, schObj };
+        return { orgObj, locObj, servObj, schObj, useObj };
     }
     catch (err) {
         console.error(`Error setting up database: ${err}`);

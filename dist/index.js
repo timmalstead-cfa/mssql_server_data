@@ -18,6 +18,34 @@ const dbSetup_1 = __importDefault(require("./dbSetup"));
 const constants_1 = require("./constants");
 const server = express_1.default();
 let models;
+server.get("/getfeedback", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { useObj } = models;
+        const returnedFeedback = yield useObj.findAll();
+        res.json(returnedFeedback);
+    }
+    catch (error) {
+        console.error(error.message);
+        res.json(error.message);
+    }
+}));
+server.post("/addfeedback", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { useObj } = models;
+        const addFeedback = yield useObj.create({
+            created_at: "2022-01-01 12:00:00",
+            is_useful: true,
+            route: "/about",
+            language: "spanish",
+            comment: "esto es lo mejor",
+        });
+        res.json(addFeedback);
+    }
+    catch (error) {
+        console.error(error.message);
+        res.json(error.message);
+    }
+}));
 server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { category, language } = req.query;
@@ -114,8 +142,11 @@ server.get("/searchbykeyword", (req, res) => __awaiter(void 0, void 0, void 0, f
         const { query, language } = req.query;
         if (constants_1.languages.has(language)) {
             const { orgObj, locObj } = models;
+            const finalQuery = String(query).trim().toLowerCase();
             const returnedOrgs = yield orgObj.findAll({
-                where: { [`tags_${language}`]: { [sequelize_1.Op.like]: `%${query}%` } },
+                where: {
+                    [`tags_${language}`]: { [sequelize_1.Op.like]: `%${finalQuery}%` },
+                },
                 attributes: [
                     "id",
                     `categories_${language}`,

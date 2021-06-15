@@ -8,6 +8,35 @@ import { languages, categories } from "./constants"
 const server: Application = express()
 let models: AllModels
 
+server.get("/getfeedback", async (req, res): Promise<void> => {
+  try {
+    const { useObj } = models
+    const returnedFeedback = await useObj.findAll()
+    res.json(returnedFeedback)
+  } catch (error) {
+    console.error(error.message)
+    res.json(error.message)
+  }
+})
+
+server.post("/addfeedback", async (req, res) => {
+  try {
+    const { useObj } = models
+    const addFeedback = await useObj.create({
+      created_at: "2022-01-01 12:00:00",
+      is_useful: true,
+      route: "/about",
+      language: "spanish",
+      comment: "esto es lo mejor",
+    })
+
+    res.json(addFeedback)
+  } catch (error) {
+    console.error(error.message)
+    res.json(error.message)
+  }
+})
+
 server.get("/getbycategory", async (req, res): Promise<void> => {
   try {
     const { category, language } = req.query
