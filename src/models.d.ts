@@ -78,7 +78,7 @@ export interface ServicesOrganizationsModel extends Model {
 export interface IsThisUsefulModel extends Model {
   id: number
   created_at: string
-  is_useful: number
+  is_useful: boolean
   route: string
   language: string
   comment: string

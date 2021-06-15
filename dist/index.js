@@ -31,19 +31,27 @@ server.get("/getfeedback", (req, res) => __awaiter(void 0, void 0, void 0, funct
 }));
 server.post("/addfeedback", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { useObj } = models;
-        const addFeedback = yield useObj.create({
-            created_at: "2022-01-01 12:00:00",
-            is_useful: true,
-            route: "/about",
-            language: "spanish",
-            comment: "esto es lo mejor",
-        });
-        res.json(addFeedback);
+        const { is_useful, route, language, comment } = req.query;
+        if (is_useful && route && language) {
+            const { useObj } = models;
+            const now = new Date(Date.now());
+            const year = now.getFullYear();
+            const month = `${now.getMonth() + 1}`.padStart(2, "0");
+            const day = `${now.getDate()}`.padStart(2, "0");
+            const time = now.toTimeString().slice(0, 8);
+            const addFeedback = yield useObj.create({
+                created_at: `${year}-${month}-${day} ${time}`,
+                is_useful: !!+is_useful,
+                route,
+                language,
+                comment: comment || null,
+            });
+            res.json(addFeedback);
+        }
     }
     catch (error) {
         console.error(error.message);
-        res.json(error.message);
+        res.json(error);
     }
 }));
 server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -86,7 +94,7 @@ server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, fun
     }
     catch (error) {
         console.error(error.message);
-        res.json(error.message);
+        res.json(error);
     }
 }));
 server.get("/getsinglerecord", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -133,7 +141,7 @@ server.get("/getsinglerecord", (req, res) => __awaiter(void 0, void 0, void 0, f
         }
     }
     catch (error) {
-        console.error(error);
+        console.error(error.message);
         res.json(error);
     }
 }));
@@ -169,7 +177,7 @@ server.get("/searchbykeyword", (req, res) => __awaiter(void 0, void 0, void 0, f
         }
     }
     catch (error) {
-        console.error(error);
+        console.error(error.message);
         res.json(error);
     }
 }));
