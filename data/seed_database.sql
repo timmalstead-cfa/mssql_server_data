@@ -84,10 +84,21 @@ CREATE TABLE services_organizations
     organizations_id INT
 );
 
+CREATE TABLE is_this_useful
+(
+    relation_id INT PRIMARY KEY,
+    created_at SMALLDATETIME,
+    is_useful BIT,
+    route NVARCHAR(MAX),
+    language NVARCHAR(MAX),
+    comment NVARCHAR(MAX)
+);
+
 EXEC sp_rename 'organizations.relation_id', 'id', 'COLUMN';
 EXEC sp_rename 'locations.relation_id', 'id', 'COLUMN';
 EXEC sp_rename 'services.relation_id', 'id', 'COLUMN';
 EXEC sp_rename 'schedules.relation_id', 'id', 'COLUMN';
+EXEC sp_rename 'is_this_useful.relation_id', 'id', 'COLUMN';
 
 BULK INSERT organizations FROM '/mnt/mssql_server_data/data/organizations.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
 
@@ -106,3 +117,5 @@ BULK INSERT schedules_organizations FROM '/mnt/mssql_server_data/data/schedules_
 BULK INSERT services_locations FROM '/mnt/mssql_server_data/data/services_locations.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
 
 BULK INSERT services_organizations FROM '/mnt/mssql_server_data/data/services_organizations.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
+
+BULK INSERT is_this_useful FROM '/mnt/mssql_server_data/data/is_this_useful_processed.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
