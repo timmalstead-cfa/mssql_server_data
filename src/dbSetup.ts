@@ -39,7 +39,7 @@ const dbSetup = (): AllModels => {
     const orgObj: Organization = sql.define(
       "organizations",
       {
-        id: { primaryKey: true, type: INTEGER },
+        // id: { primaryKey: true, type: INTEGER },
         name_english: { type: TEXT },
         name_spanish: { type: TEXT },
         website: { type: TEXT },
@@ -60,7 +60,7 @@ const dbSetup = (): AllModels => {
     const locObj: Location = sql.define(
       "locations",
       {
-        id: { primaryKey: true, type: INTEGER },
+        // id: { primaryKey: true, type: INTEGER },
         latitude: { type: FLOAT },
         longitude: { type: FLOAT },
         zip: { type: INTEGER },
@@ -80,7 +80,7 @@ const dbSetup = (): AllModels => {
     const servObj: Service = sql.define(
       "services",
       {
-        id: { primaryKey: true, type: INTEGER },
+        // id: { primaryKey: true, type: INTEGER },
         name_english: { type: TEXT },
         name_spanish: { type: TEXT },
       },
@@ -90,7 +90,7 @@ const dbSetup = (): AllModels => {
     const schObj: Schedule = sql.define(
       "schedules",
       {
-        id: { primaryKey: true, type: INTEGER },
+        // id: { primaryKey: true, type: INTEGER },
         open_time: { type: TEXT },
         close_time: { type: TEXT },
         days: { type: TEXT },

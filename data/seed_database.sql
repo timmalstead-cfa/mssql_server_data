@@ -54,6 +54,18 @@ CREATE TABLE schedules
     notes NVARCHAR(MAX)
 );
 
+
+CREATE TABLE is_this_usefuls
+(
+    relation_id INT PRIMARY KEY IDENTITY(1,1),
+    created_at SMALLDATETIME,
+    is_useful BIT,
+    route NVARCHAR(MAX),
+    language NVARCHAR(MAX),
+    comment NVARCHAR(MAX)
+);
+
+
 CREATE TABLE locations_organizations
 (
     locations_id INT,
@@ -82,19 +94,6 @@ CREATE TABLE services_organizations
 (
     services_id INT,
     organizations_id INT
-);
-
-CREATE TABLE is_this_usefuls
-(
-    relation_id INT PRIMARY KEY IDENTITY(1,1),
-    created_at SMALLDATETIME,
-    is_useful BIT,
-    route NVARCHAR
-(MAX),
-    language NVARCHAR
-(MAX),
-    comment NVARCHAR
-(MAX)
 );
 
 EXEC sp_rename 'organizations.relation_id', 'id', 'COLUMN';

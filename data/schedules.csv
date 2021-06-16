@@ -1,4 +1,4 @@
-﻿relation_id,open_time,close_time,days,notes
+﻿id,open_time,close_time,days,notes
 1,10:00,15:00,Mon<&&> Tue,
 2,12:00,2:00,Wed<&&> Mon<&&> Sun,
 3,15:15,16:50,Thu,

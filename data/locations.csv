@@ -1,4 +1,4 @@
-﻿relation_id,latitude,longitude,zip,city,name,website,address,address_2,state,phone,email,notes
+﻿id,latitude,longitude,zip,city,name,website,address,address_2,state,phone,email,notes
 1,34.64319040,-120.44678440,93436,Lompoc,,,325 N. Second Street,,CA,(805) 736-6226,,
 2,34.39727100,-119.51716040,93013,Carpinteria,,,941 Walnut Avenue,,CA,(805) 684-8621,,
 3,34.42281640,-119.71366820,93101,Santa Barbara,test123,www.recover123.test,1532 Castillo Street,123,CA,(805) 364-2727,123@test.com,123
