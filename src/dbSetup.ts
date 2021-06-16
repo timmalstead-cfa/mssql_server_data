@@ -9,6 +9,7 @@ import {
   ScheduleOrganization,
   ServiceLocation,
   ServiceOrganization,
+  IsThisUseful,
   AllModels,
 } from "./models"
 
@@ -38,7 +39,7 @@ const dbSetup = (): AllModels => {
     const orgObj: Organization = sql.define(
       "organizations",
       {
-        id: { primaryKey: true, type: INTEGER },
+        // id: { primaryKey: true, type: INTEGER },
         name_english: { type: TEXT },
         name_spanish: { type: TEXT },
         website: { type: TEXT },
@@ -59,7 +60,7 @@ const dbSetup = (): AllModels => {
     const locObj: Location = sql.define(
       "locations",
       {
-        id: { primaryKey: true, type: INTEGER },
+        // id: { primaryKey: true, type: INTEGER },
         latitude: { type: FLOAT },
         longitude: { type: FLOAT },
         zip: { type: INTEGER },
@@ -79,7 +80,7 @@ const dbSetup = (): AllModels => {
     const servObj: Service = sql.define(
       "services",
       {
-        id: { primaryKey: true, type: INTEGER },
+        // id: { primaryKey: true, type: INTEGER },
         name_english: { type: TEXT },
         name_spanish: { type: TEXT },
       },
@@ -89,11 +90,29 @@ const dbSetup = (): AllModels => {
     const schObj: Schedule = sql.define(
       "schedules",
       {
-        id: { primaryKey: true, type: INTEGER },
+        // id: { primaryKey: true, type: INTEGER },
         open_time: { type: TEXT },
         close_time: { type: TEXT },
         days: { type: TEXT },
         notes: { type: TEXT },
+      },
+      opt
+    )
+
+    const useObj: IsThisUseful = sql.define(
+      "is_this_usefuls",
+      {
+        // id: {
+        //   primaryKey: true,
+        //   type: INTEGER,
+        // },
+        created_at: {
+          type: "SMALLDATETIME",
+        },
+        is_useful: { type: "BIT" },
+        route: { type: TEXT },
+        language: { type: TEXT },
+        comment: { type: TEXT },
       },
       opt
     )
@@ -201,7 +220,7 @@ const dbSetup = (): AllModels => {
       .sync({ force: false })
       .then(() => console.log("Database models created"))
 
-    return { orgObj, locObj, servObj, schObj }
+    return { orgObj, locObj, servObj, schObj, useObj }
   } catch (err) {
     console.error(`Error setting up database: ${err}`)
   }

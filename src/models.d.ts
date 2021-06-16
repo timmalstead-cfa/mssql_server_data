@@ -75,6 +75,15 @@ export interface ServicesOrganizationsModel extends Model {
   organizations_id: number
 }
 
+export interface IsThisUsefulModel extends Model {
+  id: number
+  created_at: string
+  is_useful: boolean
+  route: string
+  language: string
+  comment: string
+}
+
 export type Organization = ModelCtor<OrganizationModel>
 export type Location = ModelCtor<LocationsModel>
 export type Service = ModelCtor<ServiceModel>
@@ -84,10 +93,12 @@ export type ScheduleLocation = ModelCtor<SchedulesLocationsModel>
 export type ScheduleOrganization = ModelCtor<SchedulesOrganizationsModel>
 export type ServiceLocation = ModelCtor<ServicesLocationsModel>
 export type ServiceOrganization = ModelCtor<ServicesOrganizationsModel>
+export type IsThisUseful = ModelCtor<IsThisUsefulModel>
 
 export interface AllModels {
   orgObj: Organization
   locObj: Location
   servObj: Service
   schObj: Schedule
+  useObj: IsThisUseful
 }

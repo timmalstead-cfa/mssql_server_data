@@ -1,0 +1,5 @@
+﻿id,created_at,is_useful,route,language,comment
+1,2021-06-14 09:45:00,1,/about,english,Feedback/is_this_useful feature now ready
+2,2021-06-14 12:27:00,1,/,english,this feature has now been deployed to a feature branch
+3,2021-06-14 12:31:00,1,/,english,this feature is now deployed on the production branch
+4,2021-06-14 12:42:00,1,/medicalsupport/recncoC6502aH2qYs,english,This is great

@@ -5,7 +5,7 @@ USE thrive;
 
 CREATE TABLE organizations
 (
-    relation_id INT PRIMARY KEY,
+    relation_id INT PRIMARY KEY IDENTITY(1,1),
     name_english NVARCHAR(MAX),
     name_spanish NVARCHAR(MAX),
     website NVARCHAR(MAX),
@@ -23,7 +23,7 @@ CREATE TABLE organizations
 
 CREATE TABLE locations
 (
-    relation_id INT PRIMARY KEY,
+    relation_id INT PRIMARY KEY IDENTITY(1,1),
     latitude FLOAT(10),
     longitude FLOAT(10),
     zip INT,
@@ -40,19 +40,31 @@ CREATE TABLE locations
 
 CREATE TABLE services
 (
-    relation_id INT PRIMARY KEY,
+    relation_id INT PRIMARY KEY IDENTITY(1,1),
     name_english NVARCHAR(MAX),
     name_spanish NVARCHAR(MAX),
 );
 
 CREATE TABLE schedules
 (
-    relation_id INT PRIMARY KEY,
+    relation_id INT PRIMARY KEY IDENTITY(1,1),
     open_time NVARCHAR(MAX),
     close_time NVARCHAR(MAX),
     days NVARCHAR(MAX),
     notes NVARCHAR(MAX)
 );
+
+
+CREATE TABLE is_this_usefuls
+(
+    relation_id INT PRIMARY KEY IDENTITY(1,1),
+    created_at SMALLDATETIME,
+    is_useful BIT,
+    route NVARCHAR(MAX),
+    language NVARCHAR(MAX),
+    comment NVARCHAR(MAX)
+);
+
 
 CREATE TABLE locations_organizations
 (
@@ -88,14 +100,17 @@ EXEC sp_rename 'organizations.relation_id', 'id', 'COLUMN';
 EXEC sp_rename 'locations.relation_id', 'id', 'COLUMN';
 EXEC sp_rename 'services.relation_id', 'id', 'COLUMN';
 EXEC sp_rename 'schedules.relation_id', 'id', 'COLUMN';
+EXEC sp_rename 'is_this_usefuls.relation_id', 'id', 'COLUMN';
 
-BULK INSERT organizations FROM '/mnt/mssql_server_data/data/organizations.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
+BULK INSERT organizations FROM '/mnt/mssql_server_data/data/organizations.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2, KEEPIDENTITY);
 
-BULK INSERT locations FROM '/mnt/mssql_server_data/data/locations.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
+BULK INSERT locations FROM '/mnt/mssql_server_data/data/locations.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2, KEEPIDENTITY);
 
-BULK INSERT services FROM '/mnt/mssql_server_data/data/services.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
+BULK INSERT services FROM '/mnt/mssql_server_data/data/services.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2, KEEPIDENTITY);
 
-BULK INSERT schedules FROM '/mnt/mssql_server_data/data/schedules.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
+BULK INSERT schedules FROM '/mnt/mssql_server_data/data/schedules.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2, KEEPIDENTITY);
+
+BULK INSERT is_this_usefuls FROM '/mnt/mssql_server_data/data/is_this_useful_processed.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2, KEEPIDENTITY);
 
 BULK INSERT locations_organizations FROM '/mnt/mssql_server_data/data/locations_organizations.csv' WITH ( FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW=2);
 

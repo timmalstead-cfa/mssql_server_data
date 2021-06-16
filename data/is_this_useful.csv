@@ -1,0 +1,5 @@
+﻿relation_id,created_at,is_useful,route,language,comment
+1,14/6/2021 09:45,1,/about,english,Feedback/is_this_useful feature now ready
+2,14/6/2021 12:27,1,/,english,this feature has now been deployed to a feature branch
+3,14/6/2021 12:31,1,/,english,this feature is now deployed on the production branch
+4,14/6/2021 12:42,1,/medicalsupport/recncoC6502aH2qYs,english,This is great

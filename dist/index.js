@@ -18,6 +18,42 @@ const dbSetup_1 = __importDefault(require("./dbSetup"));
 const constants_1 = require("./constants");
 const server = express_1.default();
 let models;
+server.get("/getfeedback", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { useObj } = models;
+        const returnedFeedback = yield useObj.findAll();
+        res.json(returnedFeedback);
+    }
+    catch (error) {
+        console.error(error.message);
+        res.json(error.message);
+    }
+}));
+server.post("/addfeedback", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { is_useful, route, language, comment } = req.query;
+        if (is_useful && route && language) {
+            const { useObj } = models;
+            const now = new Date(Date.now());
+            const year = now.getFullYear();
+            const month = `${now.getMonth() + 1}`.padStart(2, "0");
+            const day = `${now.getDate()}`.padStart(2, "0");
+            const time = now.toTimeString().slice(0, 8);
+            const addFeedback = yield useObj.create({
+                created_at: `${year}-${month}-${day} ${time}`,
+                is_useful: !!+is_useful,
+                route,
+                language,
+                comment: comment || null,
+            });
+            res.json(addFeedback);
+        }
+    }
+    catch (error) {
+        console.error(error.message);
+        res.json(error);
+    }
+}));
 server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { category, language } = req.query;
@@ -58,7 +94,7 @@ server.get("/getbycategory", (req, res) => __awaiter(void 0, void 0, void 0, fun
     }
     catch (error) {
         console.error(error.message);
-        res.json(error.message);
+        res.json(error);
     }
 }));
 server.get("/getsinglerecord", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -105,7 +141,7 @@ server.get("/getsinglerecord", (req, res) => __awaiter(void 0, void 0, void 0, f
         }
     }
     catch (error) {
-        console.error(error);
+        console.error(error.message);
         res.json(error);
     }
 }));
@@ -114,8 +150,11 @@ server.get("/searchbykeyword", (req, res) => __awaiter(void 0, void 0, void 0, f
         const { query, language } = req.query;
         if (constants_1.languages.has(language)) {
             const { orgObj, locObj } = models;
+            const finalQuery = String(query).trim().toLowerCase();
             const returnedOrgs = yield orgObj.findAll({
-                where: { [`tags_${language}`]: { [sequelize_1.Op.like]: `%${query}%` } },
+                where: {
+                    [`tags_${language}`]: { [sequelize_1.Op.like]: `%${finalQuery}%` },
+                },
                 attributes: [
                     "id",
                     `categories_${language}`,
@@ -138,7 +177,7 @@ server.get("/searchbykeyword", (req, res) => __awaiter(void 0, void 0, void 0, f
         }
     }
     catch (error) {
-        console.error(error);
+        console.error(error.message);
         res.json(error);
     }
 }));

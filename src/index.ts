@@ -8,6 +8,47 @@ import { languages, categories } from "./constants"
 const server: Application = express()
 let models: AllModels
 
+server.get("/getfeedback", async (req, res): Promise<void> => {
+  try {
+    const { useObj } = models
+    const returnedFeedback = await useObj.findAll()
+    res.json(returnedFeedback)
+  } catch (error) {
+    console.error(error.message)
+    res.json(error.message)
+  }
+})
+
+server.post("/addfeedback", async (req, res) => {
+  try {
+    const { is_useful, route, language, comment } = req.query
+    if (is_useful && route && language) {
+      const { useObj } = models
+
+      const now = new Date(Date.now())
+
+      const year = now.getFullYear()
+      const month = `${now.getMonth() + 1}`.padStart(2, "0")
+      const day = `${now.getDate()}`.padStart(2, "0")
+
+      const time = now.toTimeString().slice(0, 8)
+
+      const addFeedback = await useObj.create({
+        created_at: `${year}-${month}-${day} ${time}`,
+        is_useful: !!+is_useful,
+        route,
+        language,
+        comment: comment || null,
+      })
+
+      res.json(addFeedback)
+    }
+  } catch (error) {
+    console.error(error.message)
+    res.json(error)
+  }
+})
+
 server.get("/getbycategory", async (req, res): Promise<void> => {
   try {
     const { category, language } = req.query
@@ -51,7 +92,7 @@ server.get("/getbycategory", async (req, res): Promise<void> => {
     }
   } catch (error) {
     console.error(error.message)
-    res.json(error.message)
+    res.json(error)
   }
 })
 
@@ -100,7 +141,7 @@ server.get("/getsinglerecord", async (req, res): Promise<void> => {
       throw new Error("language parameter is not valid")
     }
   } catch (error) {
-    console.error(error)
+    console.error(error.message)
     res.json(error)
   }
 })
@@ -138,7 +179,7 @@ server.get("/searchbykeyword", async (req, res): Promise<void> => {
       throw new Error("language parameter is not valid")
     }
   } catch (error) {
-    console.error(error)
+    console.error(error.message)
     res.json(error)
   }
 })
