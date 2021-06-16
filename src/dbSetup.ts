@@ -103,8 +103,8 @@ const dbSetup = (): AllModels => {
       "is_this_usefuls",
       {
         // id: {
-        //   type: INTEGER,
         //   primaryKey: true,
+        //   type: INTEGER,
         // },
         created_at: {
           type: "SMALLDATETIME",
